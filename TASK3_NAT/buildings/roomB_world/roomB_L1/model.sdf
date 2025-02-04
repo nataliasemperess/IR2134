@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <sdf version="1.7">
-  <model name="roomB_L1">
+  <model name="roomB_def_L1">
     <static>true</static>
     <link name="floor_1">
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://roomB_L1/meshes/floor_1.obj</uri>
+            <uri>model://roomB_def_L1/meshes/floor_1.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -15,11 +15,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://roomB_L1/meshes/blue_linoleum.png</albedo_map>
+              <albedo_map>model://roomB_def_L1/meshes/blue_linoleum.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://roomB_L1/meshes/</uri>
+            <uri>model://roomB_def_L1/meshes/</uri>
             <name>floor_1_Diffuse</name>
           </script>
         </material>
@@ -27,7 +27,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://roomB_L1/meshes/floor_1.obj</uri>
+            <uri>model://roomB_def_L1/meshes/floor_1.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -41,7 +41,7 @@
       <visual name="wall_1">
         <geometry>
           <mesh>
-            <uri>model://roomB_L1/meshes/wall_1.obj</uri>
+            <uri>model://roomB_def_L1/meshes/wall_1.obj</uri>
           </mesh>
         </geometry>
         <transparency>0.0</transparency>
@@ -51,11 +51,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://roomB_L1/meshes/default.png</albedo_map>
+              <albedo_map>model://roomB_def_L1/meshes/default.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://roomB_L1/meshes/</uri>
+            <uri>model://roomB_def_L1/meshes/</uri>
             <name>wall_1_Diffuse</name>
           </script>
         </material>
@@ -63,7 +63,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://roomB_L1/meshes/wall_1.obj</uri>
+            <uri>model://roomB_def_L1/meshes/wall_1.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -72,7 +72,7 @@
           </contact>
         </surface>
       </collision>
-      <pose>3.479894859299975 -52.68323482967648 0 0 0 0</pose>
+      <pose>2.547661496158718 -45.37405131830918 0 0 0 0</pose>
     </link>
   </model>
 </sdf>
