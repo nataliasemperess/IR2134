@@ -1,0 +1,125 @@
+[0.094s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter:/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_assets -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets
+[0.529s] -- The C compiler identification is GNU 10.5.0
+[0.529s] -- The CXX compiler identification is GNU 10.5.0
+[0.529s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.529s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.529s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.529s] -- Detecting CXX compiler ABI info
+[0.529s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.529s] -- Detecting CXX compile features
+[0.529s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.550s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.766s] -- Configuring done
+[0.767s] -- Generating done
+[0.769s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets
+[0.774s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter:/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_assets -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets
+[0.775s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets -- -j4 -l4
+[0.814s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets -- -j4 -l4
+[0.824s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets
+[0.831s] -- Install configuration: ""
+[0.831s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/environment/project_assets.dsv
+[0.832s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models
+[0.832s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot
+[0.832s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes
+[0.832s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes/FatWheel.mtl
+[0.837s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes/HospitalRobot.obj
+[0.887s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes/FatWheel.obj
+[0.899s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes/HospitalRobot.mtl
+[0.905s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes/SmallWheel.obj
+[0.913s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes/SmallWheel.mtl
+[0.919s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/meshes/HospitalRobot_Diffuse.png
+[0.949s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/model.config
+[0.955s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/model.sdf
+[0.959s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails
+[0.959s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/4.png
+[0.964s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/1.png
+[0.969s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/3.png
+[0.976s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/2.png
+[0.979s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/5.png
+[0.982s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TeleportIngestor
+[0.982s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TeleportIngestor/model.config
+[0.987s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TeleportIngestor/model.sdf
+[0.992s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot
+[0.992s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes
+[0.992s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelMain.mtl
+[0.996s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/body.obj
+[1.006s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/body.mtl
+[1.010s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/DeliveryRobot_Diffuse.png
+[1.251s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelSide.mtl
+[1.255s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelSide.obj
+[1.261s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelMain.obj
+[1.266s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/model.config
+[1.269s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/DeliveryRobot/model.sdf
+[1.275s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA
+[1.275s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes
+[1.275s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA.mtl
+[1.278s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.mtl
+[1.281s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.obj
+[1.285s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.mtl
+[1.290s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA.obj
+[1.354s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.obj
+[1.360s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_Diffuse.png
+[1.610s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/model.config
+[1.616s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotA/model.sdf
+[1.622s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy
+[1.622s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/meshes
+[1.622s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/meshes/polaris.dae
+[2.316s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials
+[2.316s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials/textures
+[2.317s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials/textures/Ranger_Diffuse.png
+[3.259s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials/textures/FNR_switch_R.png
+[3.261s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials/textures/FNR_switch_F.png
+[3.263s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials/textures/Ranger_Spec.png
+[4.435s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials/scripts
+[4.436s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/materials/scripts/polaris.material
+[4.439s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/model-1_3.sdf
+[4.443s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/model.config
+[4.446s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/model.sdf
+[4.454s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/Caddy/model-1_4.sdf
+[4.460s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TeleportDispenser
+[4.460s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TeleportDispenser/model.config
+[4.463s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TeleportDispenser/model.sdf
+[4.466s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot
+[4.466s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/meshes
+[4.467s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/meshes/tinyRobot_body.dae
+[4.520s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/meshes/caster_wheel.dae
+[4.616s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/meshes/front_wheel.dae
+[4.709s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/meshes/sensors
+[4.709s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/meshes/sensors/sonar_hc-sr04.dae
+[4.729s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/meshes/sensors/raspi_camera.dae
+[4.761s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/model.config
+[4.765s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/TinyRobot/model.sdf
+[4.770s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/RobotPlaceholder
+[4.770s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/RobotPlaceholder/model.config
+[4.774s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/RobotPlaceholder/model.sdf
+[4.777s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE
+[4.778s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes
+[4.778s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.obj
+[4.781s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE.obj
+[4.843s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Col.mtl
+[4.846s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.mtl
+[4.850s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Col.obj
+[4.853s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE.mtl
+[4.857s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Diffuse.png
+[5.085s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/model.config
+[5.090s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/models/CleanerBotE/model.sdf
+[5.094s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/ament_index/resource_index/package_run_dependencies/project_assets
+[5.094s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/ament_index/resource_index/parent_prefix_path/project_assets
+[5.094s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/environment/ament_prefix_path.sh
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/environment/ament_prefix_path.dsv
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/environment/path.sh
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/environment/path.dsv
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/local_setup.bash
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/local_setup.sh
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/local_setup.zsh
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/local_setup.dsv
+[5.095s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/package.dsv
+[5.096s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/ament_index/resource_index/packages/project_assets
+[5.096s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/cmake/project_assetsConfig.cmake
+[5.096s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/cmake/project_assetsConfig-version.cmake
+[5.096s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_assets/share/project_assets/package.xml
+[5.102s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/build/project_assets

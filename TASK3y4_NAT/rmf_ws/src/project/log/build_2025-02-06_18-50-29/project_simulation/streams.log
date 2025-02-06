@@ -1,0 +1,42 @@
+[0.416s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_simulation -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation
+[0.487s] -- The C compiler identification is GNU 10.5.0
+[0.558s] -- The CXX compiler identification is GNU 10.5.0
+[0.566s] -- Detecting C compiler ABI info
+[0.654s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.660s] -- Detecting C compile features
+[0.660s] -- Detecting C compile features - done
+[0.663s] -- Detecting CXX compiler ABI info
+[0.769s] -- Detecting CXX compiler ABI info - done
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.777s] -- Detecting CXX compile features
+[0.779s] -- Detecting CXX compile features - done
+[0.780s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.949s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.046s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.164s] -- Added test 'lint_cmake' to check CMake code style
+[1.165s] -- Added test 'xmllint' to check XML markup files
+[1.166s] -- Configuring done
+[1.169s] -- Generating done
+[1.171s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation
+[1.176s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_simulation -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation
+[1.176s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation -- -j4 -l4
+[1.226s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation -- -j4 -l4
+[1.228s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation
+[1.239s] -- Install configuration: ""
+[1.240s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/ament_index/resource_index/package_run_dependencies/project_simulation
+[1.240s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/ament_index/resource_index/parent_prefix_path/project_simulation
+[1.240s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/environment/ament_prefix_path.sh
+[1.241s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/environment/ament_prefix_path.dsv
+[1.241s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/environment/path.sh
+[1.241s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/environment/path.dsv
+[1.242s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/local_setup.bash
+[1.242s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/local_setup.sh
+[1.244s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/local_setup.zsh
+[1.244s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/local_setup.dsv
+[1.245s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/package.dsv
+[1.245s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/ament_index/resource_index/packages/project_simulation
+[1.245s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/cmake/project_simulationConfig.cmake
+[1.245s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/cmake/project_simulationConfig-version.cmake
+[1.245s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_simulation/share/project_simulation/package.xml
+[1.275s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation

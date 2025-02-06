@@ -1,0 +1,15 @@
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/ament_index/resource_index/package_run_dependencies/project_maps
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/ament_index/resource_index/parent_prefix_path/project_maps
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/environment/ament_prefix_path.sh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/environment/ament_prefix_path.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/environment/path.sh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/environment/path.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/local_setup.bash
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/local_setup.sh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/local_setup.zsh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/local_setup.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/package.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/ament_index/resource_index/packages/project_maps
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/cmake/project_mapsConfig.cmake
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/cmake/project_mapsConfig-version.cmake
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_maps/share/project_maps/package.xml

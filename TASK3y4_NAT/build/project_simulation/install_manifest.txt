@@ -1,0 +1,15 @@
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/ament_index/resource_index/package_run_dependencies/project_simulation
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/ament_index/resource_index/parent_prefix_path/project_simulation
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/environment/ament_prefix_path.sh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/environment/ament_prefix_path.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/environment/path.sh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/environment/path.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/local_setup.bash
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/local_setup.sh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/local_setup.zsh
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/local_setup.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/package.dsv
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/ament_index/resource_index/packages/project_simulation
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/cmake/project_simulationConfig.cmake
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/cmake/project_simulationConfig-version.cmake
+/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/install/project_simulation/share/project_simulation/package.xml

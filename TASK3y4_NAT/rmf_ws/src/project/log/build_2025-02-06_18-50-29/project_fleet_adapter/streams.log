@@ -1,0 +1,38 @@
+[1.138s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_fleet_adapter': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/project_fleet_adapter build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/install.log --single-version-externally-managed install_data
+[1.703s] running egg_info
+[1.703s] creating ../build/project_fleet_adapter/project_fleet_adapter.egg-info
+[1.703s] writing ../build/project_fleet_adapter/project_fleet_adapter.egg-info/PKG-INFO
+[1.704s] writing dependency_links to ../build/project_fleet_adapter/project_fleet_adapter.egg-info/dependency_links.txt
+[1.704s] writing entry points to ../build/project_fleet_adapter/project_fleet_adapter.egg-info/entry_points.txt
+[1.704s] writing requirements to ../build/project_fleet_adapter/project_fleet_adapter.egg-info/requires.txt
+[1.704s] writing top-level names to ../build/project_fleet_adapter/project_fleet_adapter.egg-info/top_level.txt
+[1.704s] writing manifest file '../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[1.706s] reading manifest file '../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[1.707s] writing manifest file '../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[1.707s] running build
+[1.707s] running build_py
+[1.707s] creating /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build
+[1.707s] creating /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib
+[1.707s] creating /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[1.708s] copying project_fleet_adapter/fleet_adapter.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[1.729s] copying project_fleet_adapter/manage_lane.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[1.749s] copying project_fleet_adapter/fleet_manager.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[1.774s] copying project_fleet_adapter/RobotClientAPI.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[1.794s] copying project_fleet_adapter/__init__.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[1.802s] creating /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/test
+[1.802s] copying test/test_copyright.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/test
+[1.822s] copying test/test_flake8.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/test
+[1.841s] copying test/test_pep257.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/test
+[1.860s] copying test/__init__.py -> /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build/lib/test
+[1.868s] running install
+[1.869s] running install_lib
+[1.870s] running install_data
+[1.871s] running install_egg_info
+[1.873s] removing '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter/lib/python3.10/site-packages/project_fleet_adapter-2.5.0-py3.10.egg-info' (and everything under it)
+[1.873s] Copying ../build/project_fleet_adapter/project_fleet_adapter.egg-info to /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter/lib/python3.10/site-packages/project_fleet_adapter-2.5.0-py3.10.egg-info
+[1.874s] running install_scripts
+[1.896s] Installing fleet_adapter script to /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.902s] Installing fleet_manager script to /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.911s] Installing manage_lane script to /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.921s] writing list of installed files to '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/install.log'
+[1.948s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_fleet_adapter' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/project_fleet_adapter build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_fleet_adapter/install.log --single-version-externally-managed install_data

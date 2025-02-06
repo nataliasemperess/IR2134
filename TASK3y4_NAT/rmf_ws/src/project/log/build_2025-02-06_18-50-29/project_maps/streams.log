@@ -1,0 +1,42 @@
+[0.416s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps
+[0.497s] -- The C compiler identification is GNU 10.5.0
+[0.554s] -- The CXX compiler identification is GNU 10.5.0
+[0.562s] -- Detecting C compiler ABI info
+[0.642s] -- Detecting C compiler ABI info - done
+[0.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.646s] -- Detecting C compile features
+[0.647s] -- Detecting C compile features - done
+[0.650s] -- Detecting CXX compiler ABI info
+[0.749s] -- Detecting CXX compiler ABI info - done
+[0.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.759s] -- Detecting CXX compile features
+[0.759s] -- Detecting CXX compile features - done
+[0.762s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.953s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.047s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.166s] -- Added test 'lint_cmake' to check CMake code style
+[1.168s] -- Added test 'xmllint' to check XML markup files
+[1.170s] -- Configuring done
+[1.173s] -- Generating done
+[1.175s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps
+[1.181s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/project_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps
+[1.183s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps -- -j4 -l4
+[1.236s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps -- -j4 -l4
+[1.237s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps
+[1.246s] -- Install configuration: ""
+[1.246s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/ament_index/resource_index/package_run_dependencies/project_maps
+[1.246s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/ament_index/resource_index/parent_prefix_path/project_maps
+[1.246s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/environment/ament_prefix_path.sh
+[1.246s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/environment/ament_prefix_path.dsv
+[1.246s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/environment/path.sh
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/environment/path.dsv
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.bash
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.sh
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.zsh
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.dsv
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/package.dsv
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/ament_index/resource_index/packages/project_maps
+[1.247s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/cmake/project_mapsConfig.cmake
+[1.248s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/cmake/project_mapsConfig-version.cmake
+[1.248s] -- Installing: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/install/project_maps/share/project_maps/package.xml
+[1.261s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_maps

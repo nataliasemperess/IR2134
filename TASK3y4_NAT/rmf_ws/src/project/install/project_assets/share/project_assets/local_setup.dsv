@@ -1,0 +1,3 @@
+source;share/project_assets/environment/ament_prefix_path.sh
+source;share/project_assets/environment/path.sh
+source;share/project_assets/environment/project_assets.dsv
