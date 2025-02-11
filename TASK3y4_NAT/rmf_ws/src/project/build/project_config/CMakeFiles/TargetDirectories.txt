@@ -1,9 +1,0 @@
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/uninstall.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/project_config_uninstall.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/test.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/edit_cache.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/rebuild_cache.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/list_install_components.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/install.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/install/local.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_config/CMakeFiles/install/strip.dir

@@ -1,9 +1,0 @@
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/uninstall.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/project_simulation_uninstall.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/test.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/edit_cache.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/rebuild_cache.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/list_install_components.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/install.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/install/local.dir
-/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/project/build/project_simulation/CMakeFiles/install/strip.dir
