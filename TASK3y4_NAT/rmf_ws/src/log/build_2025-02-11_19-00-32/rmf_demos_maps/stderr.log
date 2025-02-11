@@ -1,0 +1,71 @@
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/airport_terminal/airport_terminal.building.yaml /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/airport_terminal/airport_terminal.world /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/airport_terminal/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/airport_terminal/airport_terminal.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/battle_royale/battle_royale.building.yaml /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/battle_royale/battle_royale.world /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/battle_royale/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/battle_royale/battle_royale.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/campus/campus.building.yaml /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/campus/campus.world /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/campus/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/campus/campus.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/clinic/clinic.building.yaml /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/clinic/clinic.world /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/clinic/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/clinic/clinic.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/hotel/hotel.building.yaml /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/hotel/hotel.world /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/hotel/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/hotel/hotel.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/office/office.building.yaml /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/office/office.world /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/office/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/office/office.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/triple_H/triple_H.building.yaml /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/triple_H/triple_H.world /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps/maps/triple_H/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps/maps/triple_H/triple_H.building.yaml[0m
+gmake[2]: *** Deleting file 'maps/office/office.world'
+Traceback (most recent call last):
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_model_downloader", line 33, in <module>
+    sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_map_model_downloader')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map_model_downloader/building_map_model_downloader.py", line 217, in main
+    download_models(
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map_model_downloader/building_map_model_downloader.py", line 178, in download_models
+    model_downloaded = pit_crew.download_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/pit_crew/pit_crew.py", line 550, in download_model
+    model = requests.get("%s/%s/models/%s/%s/%s.zip"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 747, in send
+    r.content
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/usr/lib/python3/dist-packages/urllib3/response.py", line 936, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/response.py", line 879, in read
+    data = self._raw_read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/response.py", line 814, in _raw_read
+    data = self._fp_read(amt) if not fp_closed else b""
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/response.py", line 799, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 479, in read
+    s = self.fp.read(amt)
+        ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/generate_office_crowdsim.dir/build.make:78: maps/office/office.world] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/generate_office_crowdsim.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

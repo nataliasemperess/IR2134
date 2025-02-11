@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9a9ea07c7d9768b084ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rmf_demos_maps",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_airport_terminal_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_airport_terminal_crowdsim-270dd237f0f15ed1aec5.json",
+					"name" : "generate_airport_terminal_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_airport_terminal_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_airport_terminal_nav_graphs-7125e0b6d996b432fa85.json",
+					"name" : "generate_airport_terminal_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_battle_royale_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_battle_royale_crowdsim-4fc004f883f61b136df8.json",
+					"name" : "generate_battle_royale_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_battle_royale_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_battle_royale_nav_graphs-af9eb318fc8c313ed35d.json",
+					"name" : "generate_battle_royale_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_campus_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_campus_crowdsim-ac252c6465db5399bf54.json",
+					"name" : "generate_campus_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_campus_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_campus_nav_graphs-ddea462f8dd43c20bfa5.json",
+					"name" : "generate_campus_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_clinic_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_clinic_crowdsim-dd3f016a1ad0a2f5951c.json",
+					"name" : "generate_clinic_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_clinic_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_clinic_nav_graphs-ee61a5af3da1d5f12c1a.json",
+					"name" : "generate_clinic_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_hotel_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_hotel_crowdsim-3d7712edd32721c82619.json",
+					"name" : "generate_hotel_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_hotel_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_hotel_nav_graphs-734d39f10ba4e30efa58.json",
+					"name" : "generate_hotel_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_office_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_office_crowdsim-06fdcd75fb5016ceb4f7.json",
+					"name" : "generate_office_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_office_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_office_nav_graphs-0f76ece1adc33858f544.json",
+					"name" : "generate_office_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_triple_H_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_triple_H_crowdsim-8f59da41d754fd2fbfea.json",
+					"name" : "generate_triple_H_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_triple_H_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_triple_H_nav_graphs-a8aca4eca97897d16aeb.json",
+					"name" : "generate_triple_H_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_demos_maps_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_demos_maps_uninstall-8764453d2ef24fc899c9.json",
+					"name" : "rmf_demos_maps_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e5aab3c61594f817ab68.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps",
+		"source" : "/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

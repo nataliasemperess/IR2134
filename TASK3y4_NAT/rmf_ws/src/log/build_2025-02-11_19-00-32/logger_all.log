@@ -1,0 +1,623 @@
+[0.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73424dc4e690>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73424dc4e420>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73424dc4e420>>, mixin_verb=('build',))
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.261s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(first_project) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(first_project/first_project_world/first_project_L1/meshes) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(project) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_demos' with type 'ros.ament_cmake' and name 'rmf_demos'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_assets) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_demos_assets' with type 'ros.ament_cmake' and name 'rmf_demos_assets'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_bridges) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_demos_bridges' with type 'ros.ament_python' and name 'rmf_demos_bridges'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_fleet_adapter) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_demos_fleet_adapter' with type 'ros.ament_python' and name 'rmf_demos_fleet_adapter'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_gz) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_demos_gz' with type 'ros.ament_cmake' and name 'rmf_demos_gz'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_maps) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_demos_maps' with type 'ros.ament_cmake' and name 'rmf_demos_maps'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_demos_tasks) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_demos_tasks' with type 'ros.ament_python' and name 'rmf_demos_tasks'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/meshes) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/AdjTable/thumbnails) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/meshes) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/models/Chair/thumbnails) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L1/meshes) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(roomB/roomB_world/roomB_def_L2/meshes) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_assets', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_bridges' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_bridges' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_bridges', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_bridges', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_fleet_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_fleet_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_fleet_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_fleet_adapter', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_maps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_maps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_tasks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_tasks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_tasks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_tasks', 'symlink_install': False, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos', 'symlink_install': False, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_demos_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_demos_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_gz', 'merge_install': False, 'path': '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_gz', 'symlink_install': False, 'test_result_base': None}
+[0.358s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_assets' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_assets'
+[0.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_fleet_adapter' with build type 'ament_python'
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_fleet_adapter', 'ament_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/ament_prefix_path.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/ament_prefix_path.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/ament_prefix_path.sh'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.389s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps' with build type 'ament_cmake'
+[0.389s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_tasks' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_tasks', 'ament_prefix_path')
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/ament_prefix_path.ps1'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/ament_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/ament_prefix_path.sh'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_assets -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets
+[0.668s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_fleet_adapter'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps
+[0.943s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_tasks'
+[0.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_tasks': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_tasks build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_tasks/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_tasks/install.log --single-version-externally-managed install_data
+[1.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_fleet_adapter': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_fleet_adapter build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_fleet_adapter/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed install_data
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_assets -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets -- -j4 -l4
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps
+[1.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps -- -j4 -l4
+[1.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets -- -j4 -l4
+[1.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets
+[2.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_assets)
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_assets
+[2.170s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets' for CMake module files
+[2.170s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets' for CMake config files
+[2.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_assets', 'cmake_prefix_path')
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.ps1'
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.dsv'
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.sh'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/bin'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/lib/pkgconfig/rmf_demos_assets.pc'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/lib/python3.12/site-packages'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/bin'
+[2.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.dsv'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.sh'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.bash'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.zsh'
+[2.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/colcon-core/packages/rmf_demos_assets)
+[2.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_assets)
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets' for CMake module files
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets' for CMake config files
+[2.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_assets', 'cmake_prefix_path')
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.ps1'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/hook/cmake_prefix_path.sh'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/bin'
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/lib/pkgconfig/rmf_demos_assets.pc'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/lib/python3.12/site-packages'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/bin'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.ps1'
+[2.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.dsv'
+[2.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.sh'
+[2.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.bash'
+[2.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/rmf_demos_assets/package.zsh'
+[2.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_assets/share/colcon-core/packages/rmf_demos_assets)
+[2.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_bridges' with build type 'ament_python'
+[2.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_bridges', 'ament_prefix_path')
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/ament_prefix_path.ps1'
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/ament_prefix_path.dsv'
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/ament_prefix_path.sh'
+[2.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.800s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_bridges'
+[2.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.053s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks' for CMake module files
+[3.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_tasks' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_tasks build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_tasks/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_tasks/install.log --single-version-externally-managed install_data
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks' for CMake config files
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/lib'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/bin'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/lib/pkgconfig/rmf_demos_tasks.pc'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/lib/python3.12/site-packages'
+[3.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_tasks', 'pythonpath')
+[3.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/pythonpath.ps1'
+[3.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/pythonpath.dsv'
+[3.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/hook/pythonpath.sh'
+[3.057s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/bin'
+[3.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_tasks)
+[3.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/package.ps1'
+[3.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/package.dsv'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/package.sh'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/package.bash'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/rmf_demos_tasks/package.zsh'
+[3.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_tasks/share/colcon-core/packages/rmf_demos_tasks)
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter' for CMake module files
+[3.096s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter' for CMake config files
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/lib'
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/bin'
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/lib/pkgconfig/rmf_demos_fleet_adapter.pc'
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages'
+[3.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_fleet_adapter', 'pythonpath')
+[3.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/pythonpath.ps1'
+[3.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_fleet_adapter' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_fleet_adapter build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_fleet_adapter/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed install_data
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/pythonpath.dsv'
+[3.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/hook/pythonpath.sh'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/bin'
+[3.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_fleet_adapter)
+[3.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.ps1'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.dsv'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.sh'
+[3.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.bash'
+[3.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/package.zsh'
+[3.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_fleet_adapter/share/colcon-core/packages/rmf_demos_fleet_adapter)
+[3.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_bridges': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_bridges build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_bridges/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data
+[4.554s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges' for CMake module files
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges' for CMake config files
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/lib'
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/bin'
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/lib/pkgconfig/rmf_demos_bridges.pc'
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/lib/python3.12/site-packages'
+[4.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_demos_bridges', 'pythonpath')
+[4.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/pythonpath.ps1'
+[4.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/rmf_demos_bridges' returned '0': PYTHONPATH=/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_bridges build --build-base /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_bridges/build install --record /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data
+[4.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/pythonpath.dsv'
+[4.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/hook/pythonpath.sh'
+[4.558s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/bin'
+[4.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_bridges)
+[4.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/package.ps1'
+[4.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/package.dsv'
+[4.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/package.sh'
+[4.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/package.bash'
+[4.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/rmf_demos_bridges/package.zsh'
+[4.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_bridges/share/colcon-core/packages/rmf_demos_bridges)
+[91.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[91.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[91.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps' returned '-2': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/build/rmf_demos_maps -- -j4 -l4
+[91.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_demos_maps)
+[91.850s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps' for CMake module files
+[91.850s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps' for CMake config files
+[91.850s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/bin'
+[91.851s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/lib/pkgconfig/rmf_demos_maps.pc'
+[91.851s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/lib/python3.12/site-packages'
+[91.851s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/bin'
+[91.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/share/rmf_demos_maps/package.ps1'
+[91.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/share/rmf_demos_maps/package.dsv'
+[91.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/share/rmf_demos_maps/package.sh'
+[91.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/share/rmf_demos_maps/package.bash'
+[91.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/share/rmf_demos_maps/package.zsh'
+[91.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/rmf_demos_maps/share/colcon-core/packages/rmf_demos_maps)
+[91.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[91.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[91.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[91.855s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[91.868s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[91.868s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[91.868s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[91.868s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[91.870s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[91.870s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[91.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/local_setup.ps1'
+[91.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/_local_setup_util_ps1.py'
+[91.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/setup.ps1'
+[91.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/local_setup.sh'
+[91.879s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/_local_setup_util_sh.py'
+[91.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/setup.sh'
+[91.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/local_setup.bash'
+[91.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/setup.bash'
+[91.889s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/local_setup.zsh'
+[91.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/src/install/setup.zsh'
