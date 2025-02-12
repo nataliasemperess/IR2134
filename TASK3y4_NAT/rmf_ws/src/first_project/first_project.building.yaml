@@ -20,7 +20,7 @@ levels:
       - [11, 12, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
     elevation: 0
     fiducials:
-      - [0.17000000000000001, 0.88, left-up]
+      - [154.048, 99.116, esquina_baja]
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 1, 2, 3]
@@ -57,43 +57,25 @@ levels:
       - [0, 3, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [10, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-    x_meters: 21.835306505366539
-    y_meters: 21.835306505366539
+    x_meters: 28.333909631963724
+    y_meters: 28.333909631963724
   L2:
     elevation: 8
     fiducials:
-      - [1.173, -0.20899999999999999, left-up]
+      - [94.822999999999993, 53.700000000000003, esquina_baja]
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 1, 3, 2]
     layers:
       {}
+    measurements:
+      - [2, 3, {distance: [3, 1]}]
     vertices:
-      - [0.68799999999999994, 0.50700000000000001, 0, ""]
-      - [110.176, -0.218, 0, ""]
-      - [-0.46200000000000002, 66.870000000000005, 0, ""]
-      - [110.333, 66.072999999999993, 0, ""]
+      - [-0.122, 0.36299999999999999, 0, ""]
+      - [94.525999999999996, 0.20599999999999999, 0, ""]
+      - [0.317, 53.997, 0, ""]
+      - [94.525999999999996, 54.293999999999997, 0, ""]
     x_meters: 10
     y_meters: 10
-lifts:
-  lift:
-    depth: 2
-    doors:
-      name2:
-        door_type: 2
-        motion_axis_orientation: 0
-        width: 1
-        x: 0
-        y: 0.5
-    highest_floor: L2
-    initial_floor_name: L1
-    level_doors:
-      {}
-    lowest_floor: L1
-    plugins: true
-    reference_floor_name: L1
-    width: 1.5
-    x: 135
-    y: 25
-    yaw: 0
+lifts: {}
 name: first_project

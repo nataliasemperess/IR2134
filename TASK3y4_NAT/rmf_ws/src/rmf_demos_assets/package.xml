@@ -4,8 +4,7 @@
   <name>rmf_demos_assets</name>
   <version>2.5.0</version>
   <description>Models and other media used for RMF demos</description>
-  <maintainer email="yadunund@openrobotics.org">Yadunund</maintainer>
-  <maintainer email="marco@openrobotics.org">Marco A. Gutiérrez</maintainer>
+  <maintainer email="al415537@uji.es">Natalia</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

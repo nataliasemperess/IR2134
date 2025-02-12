@@ -4,8 +4,7 @@
   <name>rmf_demos_fleet_adapter</name>
   <version>2.5.0</version>
   <description>Fleet adapters for interfacing with RMF Demos robots with a fleet manager via REST API</description>
-  <maintainer email="xiyu@openrobotics.org">Xi Yu Oh</maintainer>
-  <maintainer email="yadunund@openrobotics.org">Yadunund</maintainer>
+  <maintainer email="al415537@uji.es">Natalia</maintainer>
   <license>Apache License 2.0</license>
 
   <exec_depend>launch_xml</exec_depend>

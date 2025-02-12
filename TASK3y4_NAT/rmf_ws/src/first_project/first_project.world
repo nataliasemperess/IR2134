@@ -230,6 +230,7 @@
           <model name="OpenRobotics/KitchenCountertop" />
           <model name="door1" />
         </floor>
+        <floor name="L2" model_name="first_project_L2" />
       </plugin>
     </gui>
     <light type="directional" name="sun">
@@ -343,6 +344,11 @@
       <name>first_project_L1</name>
       <uri>model://first_project_L1</uri>
       <pose>0 0 0.0 0 0 0</pose>
+    </include>
+    <include>
+      <name>first_project_L2</name>
+      <uri>model://first_project_L2</uri>
+      <pose>0 0 8.0 0 0 0</pose>
     </include>
     <rmf_charger_waypoints name="charger_waypoints" />
   </world>
