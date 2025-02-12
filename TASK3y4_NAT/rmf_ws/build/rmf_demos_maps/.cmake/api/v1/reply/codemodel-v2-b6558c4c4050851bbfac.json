@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-75e68b334d7ceafd3f06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rmf_demos_maps",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_airport_terminal_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_airport_terminal_crowdsim-2e7df5b07b3fbc116425.json",
+					"name" : "generate_airport_terminal_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_airport_terminal_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_airport_terminal_nav_graphs-de9a7f03e701abe04f20.json",
+					"name" : "generate_airport_terminal_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_battle_royale_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_battle_royale_crowdsim-4298ec88ad84066cd656.json",
+					"name" : "generate_battle_royale_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_battle_royale_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_battle_royale_nav_graphs-d825d0fc3478fc3bc2bf.json",
+					"name" : "generate_battle_royale_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_campus_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_campus_crowdsim-52a72a44b227b86cc727.json",
+					"name" : "generate_campus_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_campus_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_campus_nav_graphs-edaf9211a73947f6fada.json",
+					"name" : "generate_campus_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_clinic_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_clinic_crowdsim-945d2e18f1990bd53774.json",
+					"name" : "generate_clinic_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_clinic_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_clinic_nav_graphs-21254007d22b46e77526.json",
+					"name" : "generate_clinic_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_hotel_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_hotel_crowdsim-a6d0986773fc97d0a599.json",
+					"name" : "generate_hotel_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_hotel_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_hotel_nav_graphs-950ca86653697843c9a5.json",
+					"name" : "generate_hotel_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_office_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_office_crowdsim-2a124bfb925d1f9be2f8.json",
+					"name" : "generate_office_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_office_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_office_nav_graphs-c06418d77c6f087ce47b.json",
+					"name" : "generate_office_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_roomB_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_roomB_crowdsim-67dd23e02492daf03db6.json",
+					"name" : "generate_roomB_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_roomB_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_roomB_nav_graphs-495c3b44c756f2f1fa0a.json",
+					"name" : "generate_roomB_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_test1_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_test1_crowdsim-862683decefe09afea2c.json",
+					"name" : "generate_test1_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_test1_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_test1_nav_graphs-c5cd1376f849209f52ff.json",
+					"name" : "generate_test1_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_triple_H_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_triple_H_crowdsim-9365a2113a58acbb8df1.json",
+					"name" : "generate_triple_H_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_triple_H_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_triple_H_nav_graphs-5c72f2cd8825e57c963a.json",
+					"name" : "generate_triple_H_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_demos_maps_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_demos_maps_uninstall-b07bb360e87e4ea7b2b5.json",
+					"name" : "rmf_demos_maps_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c2d0be08bddd34d1b8d4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/build/rmf_demos_maps",
+		"source" : "/home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/rmf_demos_maps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
