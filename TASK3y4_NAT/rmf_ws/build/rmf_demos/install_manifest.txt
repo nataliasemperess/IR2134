@@ -20,6 +20,16 @@
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/office/office_conflict.launch.xml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/office/office_loop.launch.xml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/office/office_teleop_robot.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/test1/test1_conflict.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/test1/test1.rviz
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/test1/test1_loop.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/test1/test1_patrol.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/test1/test1_teleop_robot.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/roomB/roomB_teleop_robot.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/roomB/roomB_conflict.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/roomB/roomB_loop.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/roomB/roomB_patrol.launch.xml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/include/roomB/roomB.rviz
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/common.launch.xml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/triple_H.launch.xml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/roomB.launch.xml

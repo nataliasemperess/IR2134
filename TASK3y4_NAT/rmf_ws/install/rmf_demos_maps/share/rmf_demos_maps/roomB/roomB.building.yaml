@@ -68,6 +68,7 @@ levels:
       - [282, 283, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 3], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [283, 284, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 3], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [284, 285, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 3], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [264, 266, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       sim_scan:
         color: [1, 0, 0, 0.5]
