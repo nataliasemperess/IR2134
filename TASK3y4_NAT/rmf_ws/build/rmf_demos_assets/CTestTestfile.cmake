@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/src/rmf_demos_assets
-# Build directory: /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/rmf_ws/build/rmf_demos_assets
+# Source directory: /home/usuario/rmf_ws/src/rmf_demos_assets
+# Build directory: /home/usuario/rmf_ws/build/rmf_demos_assets
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
