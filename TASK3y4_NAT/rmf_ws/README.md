@@ -172,7 +172,9 @@ https://github.com/user-attachments/assets/c817da0b-4e1b-490f-8b92-325657d9f12d
 
 
 
-- "partA_2" -> "L1_waiting_room" -> "partB_1"
+- "entrada_ascensor" -> "puntoA" -> "partB_1"
+
+![image](https://github.com/user-attachments/assets/f28751c3-9087-4f70-b866-b4f5086cc180)
 
 
 
