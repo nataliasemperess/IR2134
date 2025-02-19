@@ -1,16 +1,4 @@
-# RMF Demos
-
-![](https://github.com/open-rmf/rmf_demos/workflows/build/badge.svg)
-![](https://github.com/open-rmf/rmf_demos/workflows/style/badge.svg)
-
-The Open Robotics Middleware Framework (Open-RMF) enables interoperability among heterogeneous robot fleets while managing robot traffic that share resources such as space, building infrastructure systems (lifts, doors, etc) and other automation systems within the same facility. Open-RMF also handles task allocation and conflict resolution  among its participants (de-conflicting traffic lanes and other resources). These capabilities are provided by various libraries in [Open-RMF](https://github.com/open-rmf/rmf).
-For more details about Open RMF, refer to the comprehensive documentation provided [here](https://osrf.github.io/ros2multirobotbook/intro.html).
-
-This repository contains demonstrations of the above mentioned capabilities of RMF. It serves as a starting point for working and integrating with Open-RMF.
-
-You can also find a nice demonstration of Open-RMF using `Nav2` and `MoveIt!` built into the [Ionic Release Demo](https://github.com/gazebosim/ionic_demo).
-
-[![Robotics Middleware Framework](../media/thumbnail.png?raw=true)](https://vimeo.com/405803151)
+# FIRST PROJECT - NATALIA
 
 ## Demo Worlds
 
@@ -18,7 +6,6 @@ You can also find a nice demonstration of Open-RMF using `Nav2` and `MoveIt!` bu
 * [ICC Kyoto World](#ICC-Kyoto-World)
 
 ---
-
 ### ICC Kyoto World
 
 HACER UNA INTRODUCCIÓN
@@ -61,7 +48,7 @@ ros2 launch rmf_demos_gz roomB.launch.xml \
 ```
 Con esto, se nos abrirá
 
-![image](https://github.com/user-attachments/assets/13c57bfb-6c41-4bf6-92c2-a18885314741)
+![image](https://github.com/user-attachments/assets/81998668-d22f-4e06-9f86-d7117670e507)
 
 #### Terminal 2 : API Server
 
@@ -81,5 +68,32 @@ docker run --network host -it \
 ```
 WEB : http://localhost:3000
 
+![image](https://github.com/user-attachments/assets/28841615-f6fd-49d5-80e9-28dd8b063533)
+
+Ahora dentro de la dashboard lanzaremos algunas tasks:
+
+La primera : 
+
+- "partA_1" -> "ascensor" -> "partC_2"
+  
+![image](https://github.com/user-attachments/assets/8402c0b5-8320-48c8-85b1-e24dea0a116b)
+
+![image](https://github.com/user-attachments/assets/daed2806-1efe-47ab-8848-f88e0553963e)
+
+![image](https://github.com/user-attachments/assets/f5bb7b80-2684-45a4-b332-b35c158b5bc9)
+
+https://github.com/user-attachments/assets/b92cb0b7-21b6-4ceb-aba6-9aba42f086c4
+
+- "partA_2" -> "L1_waiting_room" -> "partB_1"
+
+![image](https://github.com/user-attachments/assets/d1b205ae-faf6-49f2-bc43-65a8f1b49c21)
+
+
+https://github.com/user-attachments/assets/3e957169-5d83-4446-856f-074ecc612ca0
+
+
+
 ---
+
+
 
