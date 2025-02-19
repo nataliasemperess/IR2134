@@ -90,14 +90,12 @@ https://github.com/user-attachments/assets/9e4eb11f-1248-41aa-b3ef-d3f8a2d71ec1
 
 ### 2) ICC Kyoto World
 
-Ahora trabajaremos con el mundo del hotel ICC Kyoto, el que trabajamos en la práctica anterior, 
-
-![](../media/hotel_world.png)
+Ahora trabajaremos con el mundo del hotel ICC Kyoto, el que trabajamos en la práctica anterior.
 
 
 #### Primeros pasos
 
- Para lanzar el docker debemos lanzar el siguiente comando:
+ Al igual que en el Test1, debes iniciar el Docker y ejecutar los mismos comandos para preparar el entorno.
 
 ```bash
 cd /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/
@@ -109,7 +107,7 @@ rocker --nvidia --x11 \
   ghcr.io/open-rmf/rmf/rmf_demos:latest 	\
     bash
 ```
-Una vez en el docker, lo que debemos hacer es ubicarnos en rmf_ws y hacer el colcon
+Luego, se ejecuta también los mismos comandos para compilar los archivos de la workspace.
 
 ```bash
 source /opt/ros/jazzy/setup.bash
@@ -121,7 +119,7 @@ colcon build
 source install/setup.bash
 ```
 
-To launch the world and the schedule visualizer,
+Para lanzar el mundo Kyoto (yo lo llamo como roomB)
 
 ```bash
 source ~/rmf_ws/install/setup.bash
@@ -148,13 +146,11 @@ docker run --network host -it \
   -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
 	ghcr.io/open-rmf/rmf-web/dashboard:latest
 ```
-WEB : http://localhost:3000
+URL del Dashboard : http://localhost:3000
 
 ![image](https://github.com/user-attachments/assets/28841615-f6fd-49d5-80e9-28dd8b063533)
 
 Ahora dentro de la dashboard lanzaremos algunas tasks:
-
-La primera : 
 
 - "partA_1" -> "ascensor" -> "partC_2"
   
