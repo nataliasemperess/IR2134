@@ -75,16 +75,18 @@ Ahora dentro de la dashboard lanzaremos algunas tasks:
 La primera : 
 
 - "partA_1" -> "ascensor" -> "partC_2"
-- 
+  
 ![image](https://github.com/user-attachments/assets/8402c0b5-8320-48c8-85b1-e24dea0a116b)
 
 ![image](https://github.com/user-attachments/assets/daed2806-1efe-47ab-8848-f88e0553963e)
 
 ![image](https://github.com/user-attachments/assets/f5bb7b80-2684-45a4-b332-b35c158b5bc9)
 
-
-
 https://github.com/user-attachments/assets/b92cb0b7-21b6-4ceb-aba6-9aba42f086c4
+
+- "partA_2" -> "L1_waiting_room" -> "partB_1"
+
+![image](https://github.com/user-attachments/assets/d1b205ae-faf6-49f2-bc43-65a8f1b49c21)
 
 
 ---
