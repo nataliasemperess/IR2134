@@ -117,7 +117,7 @@ Got response:
 ![image](https://github.com/user-attachments/assets/7ebc4769-87d7-4a89-bd56-501a1b379386)
 
 
-- "entrada_ascensor" -> "puntoA" -> "partB_1"
+- "entrada_ascensor" -> "puntoA" 
 
 ![image](https://github.com/user-attachments/assets/f28751c3-9087-4f70-b866-b4f5086cc180)
 
@@ -132,8 +132,37 @@ docker exec -it fervent_ride bash //fervent_ride es el nombre de mi docker
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor puntoA -n 1 --use_sim_time
+```
+Nos mostrará por terminal:
+
+```bash
+[INFO] [1739994140.393732516] [task_requester]: Using Sim Time
+[INFO] [1739994140.397495911] [task_requester]: Using 'dispatch_task_request'
+Json msg payload: 
+{
+  "type": "dispatch_task_request",
+  "request": {
+    "unix_millis_request_time": 0,
+    "unix_millis_earliest_start_time": 0,
+    "requester": "rmf_demos_tasks",
+    "category": "patrol",
+    "description": {
+      "places": [
+        "entrada_ascensor",
+        "puntoA"
+      ],
+      "rounds": 1
+    }
+  }
+}
+Got response: 
+{'state': {'booking': {'id': 'patrol.dispatch-474ca589e8', 'requester': 'rmf_demos_tasks', 'unix_millis_earliest_start_time': 0, 'unix_millis_request_time': 0}, 'category': 'patrol', 'detail': {'places': ['entrada_ascensor', 'puntoA'], 'rounds': 1}, 'dispatch': {'errors': [], 'status': 'queued'}, 'status': 'queued', 'unix_millis_start_time': 0}, 'success': True}
+
 
 ```
+
+![image](https://github.com/user-attachments/assets/a6514847-205e-48c8-8ba5-00e72ab39dcd)
+
 ### 2) ICC Kyoto World
 
 Ahora trabajaremos con el mundo del hotel ICC Kyoto, el que trabajamos en la práctica anterior.
