@@ -168,6 +168,10 @@ La primera :
 ![image](https://github.com/user-attachments/assets/4aab1042-a13f-4a6a-be9f-f9d3b17512cf)
 
 
+https://github.com/user-attachments/assets/c817da0b-4e1b-490f-8b92-325657d9f12d
+
+
+
 - "partA_2" -> "L1_waiting_room" -> "partB_1"
 
 
