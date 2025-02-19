@@ -78,6 +78,17 @@ Ahora dentro de la dashboard lanzaremos algunas tareas:
 
 https://github.com/user-attachments/assets/c817da0b-4e1b-490f-8b92-325657d9f12d
 
+Si lo hicieramos desde fuera del Dashboard, deberiamos poner lo siguiente:
+
+```bash
+docker exec -it fervent_ride bash //fervent_ride es el nombre de mi docker
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run rmf_demos_tasks dispatch_patrol -p esquina_sup park -n 1 --use_sim_time
+
+```
+![image](https://github.com/user-attachments/assets/7ebc4769-87d7-4a89-bd56-501a1b379386)
+
 
 - "entrada_ascensor" -> "puntoA" -> "partB_1"
 
@@ -87,7 +98,15 @@ https://github.com/user-attachments/assets/c817da0b-4e1b-490f-8b92-325657d9f12d
 
 https://github.com/user-attachments/assets/9e4eb11f-1248-41aa-b3ef-d3f8a2d71ec1
 
+Si lo hicieramos desde fuera del Dashboard, deberiamos poner lo siguiente:
 
+```bash
+docker exec -it fervent_ride bash //fervent_ride es el nombre de mi docker
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor puntoA -n 1 --use_sim_time
+
+```
 ### 2) ICC Kyoto World
 
 Ahora trabajaremos con el mundo del hotel ICC Kyoto, el que trabajamos en la práctica anterior.
