@@ -68,6 +68,13 @@ docker run --network host -it \
 ```
 WEB : http://localhost:3000
 
+![image](https://github.com/user-attachments/assets/28841615-f6fd-49d5-80e9-28dd8b063533)
+
+Ahora dentro de la dashboard lanzaremos algunas tasks:
+
+La primera : 
+
+- "partA_1" -> "ascensor" -> "partC_2"
 
 https://github.com/user-attachments/assets/b92cb0b7-21b6-4ceb-aba6-9aba42f086c4
 
