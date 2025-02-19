@@ -1,0 +1,27 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/navgraph_visualizer.dir/src/NavGraphVisualizer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navgraph_visualizer_node.dir/rclcpp_components/node_main_navgraph_visualizer_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable navgraph_visualizer_node[0m
+[ 75%] Built target navgraph_visualizer_node
+[100%] [32m[1mLinking CXX shared library libnavgraph_visualizer.so[0m
+[100%] Built target navgraph_visualizer
+-- Install configuration: ""
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/lib/rmf_visualization_navgraphs/navgraph_visualizer_node
+-- Set non-toolchain portion of runtime path of "/home/usuario/rmf_ws/install/rmf_visualization_navgraphs/lib/rmf_visualization_navgraphs/navgraph_visualizer_node" to ""
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/lib/libnavgraph_visualizer.so
+-- Set non-toolchain portion of runtime path of "/home/usuario/rmf_ws/install/rmf_visualization_navgraphs/lib/libnavgraph_visualizer.so" to ""
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_navgraphs
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_navgraphs
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/ament_prefix_path.dsv
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/path.sh
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/environment/path.dsv
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.bash
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.sh
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.zsh
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/local_setup.dsv
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/package.dsv
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/packages/rmf_visualization_navgraphs
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/ament_index/resource_index/rclcpp_components/rmf_visualization_navgraphs
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/cmake/rmf_visualization_navgraphsConfig.cmake
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/cmake/rmf_visualization_navgraphsConfig-version.cmake
+-- Installing: /home/usuario/rmf_ws/install/rmf_visualization_navgraphs/share/rmf_visualization_navgraphs/package.xml

@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/floorplan_visualizer.dir/build.make:76: CMakeFiles/floorplan_visualizer.dir/src/FloorplanVisualizer.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/floorplan_visualizer.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/floorplan_visualizer_node.dir/build.make:76: CMakeFiles/floorplan_visualizer_node.dir/rclcpp_components/node_main_floorplan_visualizer_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/floorplan_visualizer_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
