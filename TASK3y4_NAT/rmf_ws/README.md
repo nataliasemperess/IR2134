@@ -176,7 +176,10 @@ https://github.com/user-attachments/assets/c817da0b-4e1b-490f-8b92-325657d9f12d
 
 ![image](https://github.com/user-attachments/assets/f28751c3-9087-4f70-b866-b4f5086cc180)
 
+![Captura desde 2025-02-19 19-57-23](https://github.com/user-attachments/assets/6f81eefb-7db3-474f-b436-5d6175fe1b11)
 
+
+https://github.com/user-attachments/assets/9e4eb11f-1248-41aa-b3ef-d3f8a2d71ec1
 
 
 
