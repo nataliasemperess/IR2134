@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/3306d853-fe15-4aa9-808f-8a46f112bcea)
 
 
-#### Primeros pasos
+#### Terminal 1 : Primeros pasos
 
 Para comenzar, debes abrir un terminal y lanzar el siguiente comando para iniciar el contenedor de Docker con la configuración necesaria.
 
@@ -93,7 +93,7 @@ https://github.com/user-attachments/assets/9e4eb11f-1248-41aa-b3ef-d3f8a2d71ec1
 Ahora trabajaremos con el mundo del hotel ICC Kyoto, el que trabajamos en la práctica anterior.
 
 
-#### Primeros pasos
+#### Terminal 1 : Primeros pasos
 
  Al igual que en el Test1, debes iniciar el Docker y ejecutar los mismos comandos para preparar el entorno.
 
