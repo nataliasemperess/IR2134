@@ -1,16 +1,4 @@
-# RMF Demos
-
-![](https://github.com/open-rmf/rmf_demos/workflows/build/badge.svg)
-![](https://github.com/open-rmf/rmf_demos/workflows/style/badge.svg)
-
-The Open Robotics Middleware Framework (Open-RMF) enables interoperability among heterogeneous robot fleets while managing robot traffic that share resources such as space, building infrastructure systems (lifts, doors, etc) and other automation systems within the same facility. Open-RMF also handles task allocation and conflict resolution  among its participants (de-conflicting traffic lanes and other resources). These capabilities are provided by various libraries in [Open-RMF](https://github.com/open-rmf/rmf).
-For more details about Open RMF, refer to the comprehensive documentation provided [here](https://osrf.github.io/ros2multirobotbook/intro.html).
-
-This repository contains demonstrations of the above mentioned capabilities of RMF. It serves as a starting point for working and integrating with Open-RMF.
-
-You can also find a nice demonstration of Open-RMF using `Nav2` and `MoveIt!` built into the [Ionic Release Demo](https://github.com/gazebosim/ionic_demo).
-
-[![Robotics Middleware Framework](../media/thumbnail.png?raw=true)](https://vimeo.com/405803151)
+# FIRST PROJECT - NATALIA
 
 ## Demo Worlds
 
@@ -18,7 +6,6 @@ You can also find a nice demonstration of Open-RMF using `Nav2` and `MoveIt!` bu
 * [ICC Kyoto World](#ICC-Kyoto-World)
 
 ---
-
 ### ICC Kyoto World
 
 HACER UNA INTRODUCCIÓN
@@ -61,7 +48,7 @@ ros2 launch rmf_demos_gz roomB.launch.xml \
 ```
 Con esto, se nos abrirá
 
-![image](https://github.com/user-attachments/assets/13c57bfb-6c41-4bf6-92c2-a18885314741)
+![image](https://github.com/user-attachments/assets/81998668-d22f-4e06-9f86-d7117670e507)
 
 #### Terminal 2 : API Server
 
@@ -81,5 +68,11 @@ docker run --network host -it \
 ```
 WEB : http://localhost:3000
 
+
+https://github.com/user-attachments/assets/b92cb0b7-21b6-4ceb-aba6-9aba42f086c4
+
+
 ---
+
+
 
