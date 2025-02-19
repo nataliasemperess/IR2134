@@ -12,7 +12,7 @@ levels:
     vertices:
     - - 3.3333333333333335
       - -3.3333333333333335
-      - {is_charger: true, name: tinyrobot1_charger, spawn_robot_name: tinyrobot1,
+      - {is_charger: true, is_parking_spot: true, name: tinyrobot1_charger, spawn_robot_name: tinyrobot1,
         spawn_robot_type: TinyRobot}
     - - 7.666666666666667
       - -3.3333333333333335

@@ -50,6 +50,7 @@
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/config/office_mock_traffic_light/tinyRobot1_config.yaml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/config/battle_royale/tinyRobot_config.yaml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/config/office/tinyRobot_config.yaml
+/home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/config/test1/tinyRobot_config.yaml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/config/roomB/tinyRobot_config.yaml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/sros2/policies/node/parameters.xml
 /home/usuario/rmf_ws/install/rmf_demos/share/rmf_demos/sros2/policies/node/time.xml
