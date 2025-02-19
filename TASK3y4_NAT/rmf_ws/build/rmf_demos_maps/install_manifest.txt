@@ -365,10 +365,8 @@
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/model.config
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/model.sdf
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/roomB.world
-/home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/nav_graphs/3.yaml
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/nav_graphs/0.yaml
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/nav_graphs/1.yaml
-/home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/nav_graphs/2.yaml
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/models/roomB_def_L1/meshes/floor_1.mtl
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/models/roomB_def_L1/meshes/default.png
 /home/usuario/rmf_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/roomB/models/roomB_def_L1/meshes/wall_1.mtl

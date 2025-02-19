@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ae69fca90655d094b199.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rmf_visualization_fleet_states",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fleetstates_visualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fleetstates_visualizer-086c7ec1fc75f937348f.json",
+					"name" : "fleetstates_visualizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fleetstates_visualizer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fleetstates_visualizer_node-52f5b027bde25471d863.json",
+					"name" : "fleetstates_visualizer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_visualization_fleet_states_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_visualization_fleet_states_uninstall-6e601af3226eca503000.json",
+					"name" : "rmf_visualization_fleet_states_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0b3db8c70152aa56a2fc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/usuario/rmf_ws/build/rmf_visualization_fleet_states",
+		"source" : "/home/usuario/rmf_ws/src/rmf_visualization_fleet_states"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
