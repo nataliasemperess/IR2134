@@ -87,6 +87,33 @@ source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_patrol -p esquina_sup park -n 1 --use_sim_time
 
 ```
+Nos mostrará por terminal:
+
+```bash
+[INFO] [1739993757.402720729] [task_requester]: Using Sim Time
+[INFO] [1739993757.406213071] [task_requester]: Using 'dispatch_task_request'
+Json msg payload: 
+{
+  "type": "dispatch_task_request",
+  "request": {
+    "unix_millis_request_time": 0,
+    "unix_millis_earliest_start_time": 0,
+    "requester": "rmf_demos_tasks",
+    "category": "patrol",
+    "description": {
+      "places": [
+        "esquina_sup",
+        "park"
+      ],
+      "rounds": 1
+    }
+  }
+}
+Got response: 
+{'state': {'booking': {'id': 'patrol.dispatch-028ad14662', 'requester': 'rmf_demos_tasks', 'unix_millis_earliest_start_time': 0, 'unix_millis_request_time': 0}, 'category': 'patrol', 'detail': {'places': ['esquina_sup', 'park'], 'rounds': 1}, 'dispatch': {'errors': [], 'status': 'queued'}, 'status': 'queued', 'unix_millis_start_time': 0}, 'success': True}
+
+```
+
 ![image](https://github.com/user-attachments/assets/7ebc4769-87d7-4a89-bd56-501a1b379386)
 
 
