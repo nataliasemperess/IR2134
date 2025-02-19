@@ -96,7 +96,8 @@ https://github.com/user-attachments/assets/3e957169-5d83-4446-856f-074ecc612ca0
 
 HACER UNA INTRODUCCIÓN
 
-![](../media/hotel_world.png)
+![image](https://github.com/user-attachments/assets/3306d853-fe15-4aa9-808f-8a46f112bcea)
+
 
 
 #### Primeros pasos
@@ -128,13 +129,13 @@ source install/setup.bash
 To launch the world and the schedule visualizer,
 
 ```bash
-source ~/rmf_ws/install/setup.bash
 ros2 launch rmf_demos_gz test1.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
 Con esto, se nos abrirá
 
-![image](https://github.com/user-attachments/assets/81998668-d22f-4e06-9f86-d7117670e507)
+![image](https://github.com/user-attachments/assets/7e64ec3e-0b4a-4eb7-b21b-0a8a9c5340cd)
+
 
 #### Terminal 2 : API Server
 
