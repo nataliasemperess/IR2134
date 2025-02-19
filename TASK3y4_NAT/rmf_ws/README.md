@@ -155,14 +155,15 @@ docker run --network host -it \
 ```
 WEB : http://localhost:3000
 
-![image](https://github.com/user-attachments/assets/28841615-f6fd-49d5-80e9-28dd8b063533)
+
 
 Ahora dentro de la dashboard lanzaremos algunas tasks:
 
 La primera : 
 
-- "partA_1" -> "ascensor" -> "partC_2"
+- "esquina_sup" -> "park"
   
+![image](https://github.com/user-attachments/assets/f00b6ba1-a0a0-47ff-a8d1-69910c8fa32b)
 
 
 - "partA_2" -> "L1_waiting_room" -> "partB_1"
