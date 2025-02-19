@@ -5,7 +5,7 @@
 * [ICC Kyoto World](#ICC-Kyoto-World)
 ---
 
-### Test1 World
+### 1) Test1 World
 
 ![image](https://github.com/user-attachments/assets/3306d853-fe15-4aa9-808f-8a46f112bcea)
 
@@ -24,7 +24,7 @@ rocker --nvidia --x11 \
   ghcr.io/open-rmf/rmf/rmf_demos:latest 	\
     bash
 ```
-Una vez en el docker, lo que debemos hacer es ubicarnos en rmf_ws y hacer el colcon
+Una vez dentro del contenedo Docker, lo que debemos hacer es ubicarnos en rmf_ws, y ejecutar los siguientes comandos para preparar el entorno de trabajo.
 
 ```bash
 source /opt/ros/jazzy/setup.bash
@@ -36,7 +36,7 @@ colcon build
 source install/setup.bash
 ```
 
-To launch the world and the schedule visualizer,
+Luego, para lanzar el Gazebo y RViz de "test1" ejecutamos:
 
 ```bash
 ros2 launch rmf_demos_gz test1.launch.xml \
@@ -49,6 +49,8 @@ Con esto, se nos abrirá
 
 #### Terminal 2 : API Server
 
+Abrimos un segundo terminal donde ejecutaremos el servidor API para la interacción con los servicios:
+
 ```bash
 docker run --network host -it \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
@@ -57,19 +59,16 @@ docker run --network host -it \
 ```
 #### Terminal 3 : Dashboard
 
+En otro terminal, ejecutamos el Dashboard para tener una visualización de las tareas y el estado de los robots:
 ```bash
 docker run --network host -it \
   -e RMF_SERVER_URL=http://localhost:8000 \
   -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
 	ghcr.io/open-rmf/rmf-web/dashboard:latest
 ```
-WEB : http://localhost:3000
+URL del Dashboard : http://localhost:3000
 
-
-
-Ahora dentro de la dashboard lanzaremos algunas tasks:
-
-La primera : 
+Ahora dentro de la dashboard lanzaremos algunas tareas:
 
 - "esquina_sup" -> "park"
   
@@ -77,9 +76,7 @@ La primera :
 
 ![image](https://github.com/user-attachments/assets/4aab1042-a13f-4a6a-be9f-f9d3b17512cf)
 
-
 https://github.com/user-attachments/assets/c817da0b-4e1b-490f-8b92-325657d9f12d
-
 
 
 - "entrada_ascensor" -> "puntoA" -> "partB_1"
@@ -88,13 +85,12 @@ https://github.com/user-attachments/assets/c817da0b-4e1b-490f-8b92-325657d9f12d
 
 ![Captura desde 2025-02-19 19-57-23](https://github.com/user-attachments/assets/6f81eefb-7db3-474f-b436-5d6175fe1b11)
 
-
 https://github.com/user-attachments/assets/9e4eb11f-1248-41aa-b3ef-d3f8a2d71ec1
 
 
-### ICC Kyoto World
+### 2) ICC Kyoto World
 
-HACER UNA INTRODUCCIÓN
+Ahora trabajaremos con el mundo del hotel ICC Kyoto, el que trabajamos en la práctica anterior, 
 
 ![](../media/hotel_world.png)
 
