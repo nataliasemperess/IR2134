@@ -1,23 +1,18 @@
 # FIRST PROJECT - NATALIA
 
 ## Demo Worlds
-
 * [Simple World](#Simple-World)
 * [ICC Kyoto World](#ICC-Kyoto-World)
-
 ---
 
 ### Test1 World
 
-HACER UNA INTRODUCCIÓN
-
 ![image](https://github.com/user-attachments/assets/3306d853-fe15-4aa9-808f-8a46f112bcea)
-
 
 
 #### Primeros pasos
 
- Para lanzar el docker debemos lanzar el siguiente comando:
+Para comenzar, debes abrir un terminal y lanzar el siguiente comando para iniciar el contenedor de Docker con la configuración necesaria.
 
 ```bash
 cd /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/
