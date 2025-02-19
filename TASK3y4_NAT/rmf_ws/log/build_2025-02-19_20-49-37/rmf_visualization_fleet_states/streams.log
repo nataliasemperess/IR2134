@@ -1,0 +1,25 @@
+[0.227s] Invoking command in '/home/usuario/rmf_ws/build/rmf_visualization_fleet_states': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/install/rmf_visualization_building_systems:/opt/ros/jazzy /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_visualization_fleet_states -- -j6 -l6
+[0.349s] [ 50%] Built target fleetstates_visualizer_node
+[0.453s] [100%] Built target fleetstates_visualizer
+[0.491s] Invoked command in '/home/usuario/rmf_ws/build/rmf_visualization_fleet_states' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/install/rmf_visualization_building_systems:/opt/ros/jazzy /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_visualization_fleet_states -- -j6 -l6
+[0.493s] Invoking command in '/home/usuario/rmf_ws/build/rmf_visualization_fleet_states': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/install/rmf_visualization_building_systems:/opt/ros/jazzy /usr/bin/cmake --install /home/usuario/rmf_ws/build/rmf_visualization_fleet_states
+[0.513s] -- Install configuration: ""
+[0.514s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/lib/rmf_visualization_fleet_states/fleetstates_visualizer_node
+[0.515s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/lib/libfleetstates_visualizer.so
+[0.516s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_fleet_states
+[0.516s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_fleet_states
+[0.516s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/ament_prefix_path.sh
+[0.516s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/ament_prefix_path.dsv
+[0.517s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/path.sh
+[0.517s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/environment/path.dsv
+[0.517s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.bash
+[0.517s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.sh
+[0.518s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.zsh
+[0.518s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/local_setup.dsv
+[0.518s] -- Installing: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/package.dsv
+[0.522s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/packages/rmf_visualization_fleet_states
+[0.523s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/ament_index/resource_index/rclcpp_components/rmf_visualization_fleet_states
+[0.523s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/cmake/rmf_visualization_fleet_statesConfig.cmake
+[0.523s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/cmake/rmf_visualization_fleet_statesConfig-version.cmake
+[0.523s] -- Up-to-date: /home/usuario/rmf_ws/install/rmf_visualization_fleet_states/share/rmf_visualization_fleet_states/package.xml
+[0.527s] Invoked command in '/home/usuario/rmf_ws/build/rmf_visualization_fleet_states' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usuario/install/rmf_visualization_building_systems:/opt/ros/jazzy /usr/bin/cmake --install /home/usuario/rmf_ws/build/rmf_visualization_fleet_states

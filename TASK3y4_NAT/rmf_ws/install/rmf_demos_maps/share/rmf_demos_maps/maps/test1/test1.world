@@ -226,7 +226,7 @@
         <floor name="L1" model_name="test1_def_L1">
           <model name="OpenRobotics/Sofa" />
           <model name="OpenRobotics/Sofa_2" />
-          <model name="null" />
+          <model name="door1" />
           <model name="ShaftDoor_L1_L1_lift1_door" />
         </floor>
         <floor name="L2" model_name="test1_def_L2">
@@ -264,7 +264,7 @@
       <uri>model://TinyRobot</uri>
       <pose>4.889684352120301 -4.889684352120301 0.0 0 0 1.5765778189502448</pose>
     </include>
-    <model name="null">
+    <model name="door1">
       <pose>6.400401229551388 -4.979947925260442 0.0 0 0 1.5707963267948966</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -325,7 +325,7 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="door1" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>

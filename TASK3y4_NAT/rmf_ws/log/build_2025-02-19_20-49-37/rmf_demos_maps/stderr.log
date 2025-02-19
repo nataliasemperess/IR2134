@@ -1,0 +1,20 @@
+Package 'rmf_building_map_tools' not found
+gmake[2]: *** [CMakeFiles/generate_battle_royale_crowdsim.dir/build.make:73: battle_royale_crowdsim] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/generate_battle_royale_crowdsim.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Package 'rmf_building_map_tools' not found
+gmake[2]: *** [CMakeFiles/generate_airport_terminal_crowdsim.dir/build.make:73: airport_terminal_crowdsim] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/generate_airport_terminal_crowdsim.dir/all] Error 2
+Package 'rmf_building_map_tools' not found
+Package 'rmf_building_map_tools' not found
+Package 'rmf_building_map_tools' not found
+Package 'rmf_building_map_tools' not found
+gmake[2]: *** [CMakeFiles/generate_airport_terminal_nav_graphs.dir/build.make:73: maps/airport_terminal/nav_graphs/phony] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/generate_airport_terminal_nav_graphs.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/generate_battle_royale_nav_graphs.dir/build.make:73: maps/battle_royale/nav_graphs/phony] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/generate_battle_royale_nav_graphs.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/generate_campus_crowdsim.dir/build.make:73: campus_crowdsim] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:275: CMakeFiles/generate_campus_crowdsim.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/generate_campus_nav_graphs.dir/build.make:73: maps/campus/nav_graphs/phony] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:301: CMakeFiles/generate_campus_nav_graphs.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

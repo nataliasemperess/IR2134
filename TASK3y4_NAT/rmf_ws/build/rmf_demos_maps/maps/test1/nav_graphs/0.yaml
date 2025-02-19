@@ -1,6 +1,6 @@
 building_name: test1_def
 doors:
-  'null':
+  door1:
     endpoints:
     - [6.400401229551388, -4.0982400428861085]
     - [6.400401229551388, -5.861655807634774]
@@ -34,10 +34,10 @@ levels:
       - {}
     - - 0
       - 4
-      - {door_name: 'null'}
+      - {door_name: door1}
     - - 4
       - 0
-      - {door_name: 'null'}
+      - {door_name: door1}
     - - 4
       - 5
       - {}
