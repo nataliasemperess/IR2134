@@ -162,6 +162,12 @@ Ahora dentro de la dashboard lanzaremos algunas tasks:
 
 https://github.com/user-attachments/assets/b92cb0b7-21b6-4ceb-aba6-9aba42f086c4
 
+Lanzar las tasks desde la terminal sería de la siguiente manera : 
+
+```bash
+
+```
+
 - "partA_2" -> "L1_waiting_room" -> "partB_1"
 
 ![image](https://github.com/user-attachments/assets/d1b205ae-faf6-49f2-bc43-65a8f1b49c21)
