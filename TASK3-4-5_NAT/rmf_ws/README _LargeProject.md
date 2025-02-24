@@ -11,7 +11,7 @@ pdftoppm TD_n1.pdf TD_n1 -png -singlefile
 ```
 2) Luego creamos buildings, y pasamos ahí los png
 3) Nos metemos al Docker:
-4) 
+   
 ```bash
 cd ~/Documentos/GitHub/IR2134/TASK3-4-5_NAT/large_project
 
