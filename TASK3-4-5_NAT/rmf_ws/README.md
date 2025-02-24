@@ -247,6 +247,93 @@ https://github.com/user-attachments/assets/3e957169-5d83-4446-856f-074ecc612ca0
 
 
 
+### 1) Large Project - TD BUILDING
+
+# COPIAR IMAGEN
+
+#### Terminal 1 : Primeros pasos
+
+Para comenzar, debes abrir un terminal y lanzar el siguiente comando para iniciar el contenedor de Docker con la configuración necesaria.
+
+```bash
+cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/
+
+rocker --nvidia --x11 \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  --network host --user \
+  --volume `pwd`/rmf_ws:/home/usuario/rmf_ws --  \
+  ghcr.io/open-rmf/rmf/rmf_demos:latest 	\
+    bash
+```
+Una vez dentro del contenedo Docker, lo que debemos hacer es ubicarnos en rmf_ws, y ejecutar los siguientes comandos para preparar el entorno de trabajo.
+
+```bash
+source /opt/ros/jazzy/setup.bash
+sudo cp -R /root/.gazebo .	
+cd rmf_ws/
+
+rm -rf build/ install/ log/
+colcon build
+source install/setup.bash
+```
+
+Luego, para lanzar el Gazebo y RViz de "test1" ejecutamos:
+
+```bash
+ros2 launch rmf_demos_gz TD_building.launch.xml \
+  server_uri:="ws://localhost:8000/_internal"
+```
+Con esto, se nos abrirá
+
+![image](https://github.com/user-attachments/assets/7e64ec3e-0b4a-4eb7-b21b-0a8a9c5340cd)
+
+
+#### Terminal 2 : API Server
+
+Abrimos un segundo terminal donde ejecutaremos el servidor API para la interacción con los servicios:
+
+```bash
+docker run --network host -it \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
+	ghcr.io/open-rmf/rmf-web/api-server:latest
+```
+#### Terminal 3 : Dashboard
+
+En otro terminal, ejecutamos el Dashboard para tener una visualización de las tareas y el estado de los robots:
+
+```bash
+docker run --network host -it \
+  -e RMF_SERVER_URL=http://localhost:8000 \
+  -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
+	ghcr.io/open-rmf/rmf-web/dashboard:latest
+```
+URL del Dashboard : http://localhost:3000
+
+Ahora dentro de la dashboard lanzaremos algunas tareas:
+
+- "sitio1" -> "park"
+
+Poner fotos y videos
+
+Si lo hicieramos desde fuera del Dashboard, deberiamos poner lo siguiente:
+
+```bash
+docker exec -it fervent_ride bash //fervent_ride es el nombre de mi docker
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run rmf_demos_tasks dispatch_patrol -p esquina_sup park -n 1 --use_sim_time
+
+```
+Nos mostrará por terminal:
+
+```bash
+----
+
+```
+
+foto
+
 
 ---
 
