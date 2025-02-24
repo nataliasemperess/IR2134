@@ -15,7 +15,7 @@
 Para comenzar, debes abrir un terminal y lanzar el siguiente comando para iniciar el contenedor de Docker con la configuraci√≥n necesaria.
 
 ```bash
-cd /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/
+cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/
 
 rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
@@ -173,7 +173,7 @@ Ahora trabajaremos con el mundo del hotel ICC Kyoto, el que trabajamos en la pr√
  Al igual que en el Test1, debes iniciar el Docker y ejecutar los mismos comandos para preparar el entorno.
 
 ```bash
-cd /home/usuario/Documentos/GitHub/IR2134/TASK3y4_NAT/
+cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/
 
 rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
