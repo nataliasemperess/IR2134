@@ -1,11 +1,12 @@
-# FIRST PROJECT - NATALIA
+# LARGE PROJECT - NATALIA
 
-## Demo Worlds
-* [Simple World](#Simple-World)
-* [ICC Kyoto World](#ICC-Kyoto-World)
----
+En primer lugar, deberemos crear el mapa a través del Traffic-Editor : 
 
-### 1) Test1 World
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/3306d853-fe15-4aa9-808f-8a46f112bcea)
 
