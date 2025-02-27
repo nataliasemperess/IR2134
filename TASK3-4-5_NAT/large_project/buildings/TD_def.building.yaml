@@ -65,14 +65,81 @@ levels:
       - [1485, 1230, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door46], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
       - [1229, 1174, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door45], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
       - [1175, 1176, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door44], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [1223, 1234, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door55], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [1212, 1405, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door56], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1212, 1405, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door56], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [1018, 1487, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door53], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [1487, 1488, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door54_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [1004, 1012, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door51_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [1015, 1016, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door52_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [1132, 1133, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door42_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
       - [1145, 1150, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door43_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1408, 1421, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door57], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [1310, 1311, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_13333], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1312, 1308, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1307, 1320, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1321, 1322, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1296, 1298, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1302, 1303, {motion_axis: [1, end+], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1304, 1664, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1289, 1300, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_8], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1667, 1668, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_9], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1669, 1331, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1671, 1337, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_11], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [1641, 1648, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_12], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1637, 1645, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_13], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1253, 1636, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_14], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1276, 1281, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_15], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3546, 1851, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_16], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1845, 1359, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_17], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1662, 3547, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_18], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3547, 1476, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_19], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1655, 1660, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_20], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1038, 1047, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_21], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1050, 1057, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_22], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1932, 1921, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_23], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1917, 1902, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_24], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1887, 2193, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_25], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [2196, 2197, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_26], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [1707, 1717, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_27], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3548, 1718, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_28], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1719, 1724, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_29], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1725, 1730, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_30], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1699, 1746, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_31], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1749, 1751, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_32], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1757, 1763, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_33], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1773, 1761, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_34], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1430, 1454, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_35], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [1384, 1452, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_36], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [1452, 1449, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_37], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [2117, 2116, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_38], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [2104, 2105, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_39], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [2416, 2417, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_40], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [2418, 2423, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_41], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [2381, 2086, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_42], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [2383, 2100, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_43], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3142, 3141, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_44], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3112, 3126, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_45], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3146, 3102, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_46], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3185, 2111, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_47], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3195, 3092, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_48], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3083, 3089, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_49], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3204, 3198, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_50], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3224, 3205, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_51], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3063, 3082, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_52], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1827, 3225, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_53], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3043, 3062, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_54], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [3035, 3041, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_55], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1821, 1826, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_56], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1818, 3032, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_57], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1781, 1802, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_58], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1794, 1783, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_59], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [2390, 2384, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_60], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [1222, 1233, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_61], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [2212, 2215, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_62], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [2218, 2219, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_63], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [1889, 3550, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_64], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [3550, 3552, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door_65], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [3555, 3554, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_66], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [3554, 1778, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_67], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
     drawing:
       filename: TD_n0.png
     elevation: 0
@@ -86,6 +153,183 @@ levels:
       {}
     measurements:
       - [4, 5, {distance: [3, 3]}]
+    models:
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1230.771, y: 1980.346, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1288.1289999999999, y: 1978.8869999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1352.2929999999999, y: 1980.346, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1232.229, y: 2065.4110000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1290.0740000000001, y: 2062.9810000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1352.2929999999999, y: 2061.5230000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1443.6780000000001, y: 1989.095, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1207.704, y: 1964.9690000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1207.326, y: 1988.7560000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1264.337, y: 1964.9690000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1263.9590000000001, y: 1989.511, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1326.634, y: 1964.5920000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1328.144, y: 1990.2660000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1207.326, y: 2050.297, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1207.326, y: 2075.2159999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1265.47, y: 2049.5419999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1265.0920000000001, y: 2071.4400000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1328.5219999999999, y: 2048.0320000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1328.5219999999999, y: 2071.0630000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1467.462, y: 1985.7349999999999, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1165.7090000000001, y: 2208.2950000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1225.297, y: 2208.2950000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1319.287, y: 2208.9090000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1381.9459999999999, y: 2209.5230000000001, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1439.692, y: 2209.5230000000001, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1464.2639999999999, y: 2267.268, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1464.8779999999999, y: 2328.085, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1421.877, y: 2367.4009999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1313.758, y: 2368.0149999999999, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1151.5799999999999, y: 2231.27, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1180.0840000000001, y: 2231.27, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1211.0450000000001, y: 2231.27, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1237.5830000000001, y: 2231.761, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1304.912, y: 2233.2359999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1333.9069999999999, y: 2233.7269999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1370.2739999999999, y: 2234.2190000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1397.796, y: 2233.7269999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1435.146, y: 2233.2359999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1438.0940000000001, y: 2256.3339999999998, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1439.569, y: 2278.9400000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1438.586, y: 2312.3589999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1438.586, y: 2333.491, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1407.133, y: 2341.3539999999998, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1323.587, y: 2341.3539999999998, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1295.5740000000001, y: 2342.337, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 906.37099999999998, y: 1976.5360000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 907.63800000000003, y: 2047.7550000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 839.16700000000003, y: 1975.877, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 839.82600000000002, y: 2047.0340000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 773.27999999999997, y: 1977.194, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 774.59799999999996, y: 2048.3519999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 741.99800000000005, y: 2172.4740000000002, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 795.61900000000003, y: 2172.4740000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 848.76099999999997, y: 2172.953, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1005.794, y: 2229.4459999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 679.75900000000001, y: 2216.52, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 690.26300000000003, y: 2274.7829999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 690.77099999999996, y: 2332.8580000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 909.56299999999999, y: 2363.02, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 852.11199999999997, y: 2363.4989999999998, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 847.08600000000001, y: 2684.8980000000001, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 846.10000000000002, y: 2611.4259999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 723.80899999999997, y: 2613.8910000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 781.99599999999998, y: 2612.9050000000002, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 906.25900000000001, y: 2684.8980000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 962.47299999999996, y: 2684.4050000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 904.779, y: 2609.9459999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1449.825, y: 2591.1950000000002, yaw: -1.5519000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1399.8309999999999, y: 2691.1840000000002, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1399.355, y: 2623.5720000000001, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1332.6949999999999, y: 2622.6199999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1274.1289999999999, y: 2690.7080000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1215.088, y: 2621.6680000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1334.5989999999999, y: 2691.6599999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1216.04, y: 2691.1840000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1274.1289999999999, y: 2622.1439999999998, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1191.1220000000001, y: 1126.9580000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1261.787, y: 1126.9580000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1335.1030000000001, y: 1126.075, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1421.6679999999999, y: 1125.191, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1464.067, y: 1176.424, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1436.684, y: 1232.9559999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1312.136, y: 1237.373, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1188.472, y: 1222.356, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 698.05700000000002, y: 1126.4090000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 785.53399999999999, y: 1126.923, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 869.40899999999999, y: 1126.4090000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 938.87599999999998, y: 1125.894, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 690.85299999999995, y: 1186.6130000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 730.47500000000002, y: 1233.4390000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 835.96199999999999, y: 1237.0409999999999, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 699.08600000000001, y: 951.45500000000004, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 783.476, y: 956.08600000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 840.07899999999995, y: 950.42600000000004, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 904.91499999999996, y: 958.14400000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 691.36800000000005, y: 1061.058, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 785.01999999999998, y: 1061.058, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 849.85599999999999, y: 1057.971, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 917.26400000000001, y: 1054.3689999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 1257.184, y: 1150.4100000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 960.5, y: 2611.4259999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 975.63199999999995, y: 2284.982, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 795.13999999999999, y: 2363.9780000000001, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 737.21000000000004, y: 2364.9349999999999, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 901.90300000000002, y: 2172.953, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1474.338, y: 2590.904, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1370.6790000000001, y: 2609.0970000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1370.2560000000001, y: 2636.1750000000002, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1371.9480000000001, y: 2674.6770000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1372.3710000000001, y: 2699.2159999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1306.3679999999999, y: 2673.8310000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1308.0609999999999, y: 2700.0630000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1304.6759999999999, y: 2606.558, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1304.6759999999999, y: 2633.636, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1248.404, y: 2605.2890000000002, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1247.558, y: 2631.944, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1187.4780000000001, y: 2603.5970000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1187.0550000000001, y: 2631.5210000000002, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1185.3620000000001, y: 2673.8310000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1186.6320000000001, y: 2702.1779999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 934.16499999999996, y: 2595.3099999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 933.87300000000005, y: 2620.1819999999998, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 936.40099999999995, y: 2667.4789999999998, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 936.40099999999995, y: 2692.3910000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 876.46799999999996, y: 2592.7429999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 876.10699999999997, y: 2619.0990000000002, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 880.07799999999997, y: 2667.4789999999998, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 880.43899999999996, y: 2695.279, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 817.97900000000004, y: 2592.7429999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 818.34000000000003, y: 2618.7379999999998, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 819.78399999999999, y: 2670.0059999999999, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 820.50599999999997, y: 2694.9180000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 756.96199999999999, y: 2595.6309999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 756.24000000000001, y: 2623.0700000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 695.58500000000004, y: 2596.7139999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 696.30700000000002, y: 2619.8209999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 726.17200000000003, y: 2193.386, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 751.28599999999994, y: 2193.386, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 781.94799999999998, y: 2194.5540000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 809.39700000000005, y: 2194.846, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 836.84699999999998, y: 2194.846, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 861.96100000000001, y: 2194.846, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 887.07500000000005, y: 2194.846, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 911.31200000000001, y: 2194.5540000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 978.98000000000002, y: 2212.4830000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 979.26099999999997, y: 2241.3670000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 950.85299999999995, y: 2271.1190000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 951.779, y: 2296.6120000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 924.85699999999997, y: 2339.2379999999998, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 897.93600000000004, y: 2338.9569999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 867.08900000000006, y: 2340.0790000000002, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 840.16700000000003, y: 2340.0790000000002, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 809.601, y: 2341.4810000000002, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 786.04399999999998, y: 2340.6399999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 752.673, y: 2342.0419999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 727.154, y: 2342.0419999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 715.37599999999998, y: 2319.8879999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 715.096, y: 2290.723, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 715.65599999999995, y: 2266.8870000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 707.80399999999997, y: 2229.029, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 749.22500000000002, y: 1958.9190000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 749.58799999999997, y: 1983.605, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 816.02200000000005, y: 1960.3710000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 815.29600000000005, y: 1987.598, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 750.67700000000002, y: 2033.3389999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 750.31399999999996, y: 2058.7510000000002, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 816.02200000000005, y: 2033.702, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 815.65899999999999, y: 2055.1210000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 882.45600000000002, y: 1960.7339999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 881.73000000000002, y: 1987.2349999999999, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 884.99800000000005, y: 2035.8810000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 884.27200000000005, y: 2057.6619999999998, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1248.579, y: 2672.8800000000001, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Chair, name: OpenRobotics/Chair, static: true, x: 1249.1010000000001, y: 2699.502, yaw: -0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/BathroomSink, name: OpenRobotics/BathroomSink, static: true, x: 1024.7380000000001, y: 2617.8409999999999, yaw: -1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/BathroomSink, name: OpenRobotics/BathroomSink, static: true, x: 1024.7380000000001, y: 2634.8629999999998, yaw: -1.5708, z: 0}
     vertices:
       - [119.541, 31.481999999999999, 0, ""]
       - [4935.4399999999996, 31.067, 0, ""]
@@ -1152,7 +1396,7 @@ levels:
       - [2312.8339999999998, 853.51300000000003, 0, ""]
       - [2333.9549999999999, 853.51300000000003, 0, ""]
       - [2333.9549999999999, 848.48500000000001, 0, ""]
-      - [2377.8420000000001, 848.48500000000001, 0, ""]
+      - [2369.413, 848.59699999999998, 0, ""]
       - [2316.9490000000001, 814.37599999999998, 0, ""]
       - [2316.9490000000001, 844.29999999999995, 0, ""]
       - [2334.527, 844.29999999999995, 0, ""]
@@ -1295,8 +1539,8 @@ levels:
       - [2106.355, 1577.808, 0, ""]
       - [2201.4389999999999, 1577.808, 0, ""]
       - [2201.4389999999999, 1527.4749999999999, 0, ""]
-      - [2251.7719999999999, 1527.4749999999999, 0, ""]
-      - [2251.7719999999999, 1534.431, 0, ""]
+      - [2248.6170000000002, 1525.876, 0, ""]
+      - [2248.6170000000002, 1534.5060000000001, 0, ""]
       - [2224.355, 1534.431, 0, ""]
       - [2224.355, 1579.854, 0, ""]
       - [2251.2550000000001, 1579.854, 0, ""]
@@ -1309,7 +1553,7 @@ levels:
       - [2088.4549999999999, 1725.4349999999999, 0, ""]
       - [2047.721, 1725.4349999999999, 0, ""]
       - [2047.721, 1754.413, 0, ""]
-      - [2042.412, 1754.413, 0, ""]
+      - [2045.039, 1754.5419999999999, 0, ""]
       - [2026.193, 1754.413, 0, ""]
       - [2026.193, 1724.529, 0, ""]
       - [1993.309, 1724.529, 0, ""]
@@ -1340,8 +1584,8 @@ levels:
       - [2340.8789999999999, 2428.127, 0, ""]
       - [2340.8789999999999, 2438.0230000000001, 0, ""]
       - [2353.2489999999998, 2438.0230000000001, 0, ""]
-      - [2353.2489999999998, 2446.0160000000001, 0, ""]
-      - [2342.7820000000002, 2446.0160000000001, 0, ""]
+      - [2354.4189999999999, 2445.7359999999999, 0, ""]
+      - [2341.4859999999999, 2443.8099999999999, 0, ""]
       - [2342.7820000000002, 2507.1239999999998, 0, ""]
       - [2305.3339999999998, 2507.1239999999998, 0, ""]
       - [2305.3339999999998, 2498.328, 0, ""]
@@ -1376,8 +1620,8 @@ levels:
       - [2044.501, 2505.5830000000001, 0, ""]
       - [2044.501, 2541.5509999999999, 0, ""]
       - [2052.877, 2541.5509999999999, 0, ""]
-      - [2052.877, 2547.4630000000002, 0, ""]
-      - [1987.346, 2547.4630000000002, 0, ""]
+      - [2052.3249999999998, 2545.3249999999998, 0, ""]
+      - [1987.7170000000001, 2545.3249999999998, 0, ""]
       - [1987.346, 2568.422, 0, ""]
       - [1979.011, 2568.422, 0, ""]
       - [1979.011, 2661.915, 0, ""]
@@ -1387,7 +1631,7 @@ levels:
       - [2017.7760000000001, 2681.9810000000002, 0, ""]
       - [2049.6999999999998, 2673.7719999999999, 0, ""]
       - [2049.6999999999998, 2681.3690000000001, 0, ""]
-      - [2080.4409999999998, 2543.4319999999998, 0, ""]
+      - [2078.402, 2545.7139999999999, 0, ""]
       - [2081.114, 2673.9409999999998, 0, ""]
       - [2111.6570000000002, 2543.846, 0, ""]
       - [2133.384, 2543.489, 0, ""]
@@ -1398,8 +1642,8 @@ levels:
       - [2144.7820000000002, 2615.866, 0, ""]
       - [2080.0949999999998, 2616.7539999999999, 0, ""]
       - [2093.7060000000001, 2616.9200000000001, 0, ""]
-      - [2112.297, 2615.5920000000001, 0, ""]
-      - [2118.107, 2615.4259999999999, 0, ""]
+      - [2112.3600000000001, 2617.0360000000001, 0, ""]
+      - [2120.2420000000002, 2615.5770000000002, 0, ""]
       - [2119.1219999999998, 2671.864, 0, ""]
       - [2118.5309999999999, 2662.7159999999999, 0, ""]
       - [2081.3789999999999, 2663.3290000000002, 0, ""]
@@ -1407,7 +1651,7 @@ levels:
       - [2154.7550000000001, 2673.1500000000001, 0, ""]
       - [2189.8420000000001, 2673.1500000000001, 0, ""]
       - [2189.8420000000001, 2615.4000000000001, 0, ""]
-      - [2182.8580000000002, 2615.4000000000001, 0, ""]
+      - [2183.0010000000002, 2617.328, 0, ""]
       - [2196.02, 2615.4000000000001, 0, ""]
       - [2214.2849999999999, 2615.4000000000001, 0, ""]
       - [2225.2979999999998, 2615.4000000000001, 0, ""]
@@ -1489,7 +1733,7 @@ levels:
       - [2054.2559999999999, 2057.1840000000002, 0, ""]
       - [2041.8320000000001, 2070.1590000000001, 0, ""]
       - [2296.9870000000001, 1525.2360000000001, 0, ""]
-      - [2296.4479999999999, 1533.0519999999999, 0, ""]
+      - [2297.7449999999999, 1531.1869999999999, 0, ""]
       - [2325.0169999999998, 1531.704, 0, ""]
       - [2325.0169999999998, 1578.5989999999999, 0, ""]
       - [2297.7959999999998, 1578.5989999999999, 0, ""]
@@ -1723,7 +1967,7 @@ levels:
       - [993.64800000000002, 1924.1959999999999, 0, ""]
       - [1024.9970000000001, 1945.1369999999999, 0, ""]
       - [2378.1970000000001, 2436.7890000000002, 0, ""]
-      - [2378.1970000000001, 2443.326, 0, ""]
+      - [2376.7080000000001, 2444.9110000000001, 0, ""]
       - [2412.3319999999999, 2443.326, 0, ""]
       - [2412.3319999999999, 2437.2730000000001, 0, ""]
       - [2381.587, 2574.54, 0, ""]
@@ -1753,10 +1997,10 @@ levels:
       - [2675.5650000000001, 2438.4949999999999, 0, ""]
       - [2203.857, 2542.982, 0, ""]
       - [2227.078, 2542.982, 0, ""]
-      - [2341.0529999999999, 2542.982, 0, ""]
-      - [2341.0529999999999, 2563.5439999999999, 0, ""]
-      - [2339.2809999999999, 2589.9549999999999, 0, ""]
-      - [2339.2809999999999, 2606.6170000000002, 0, ""]
+      - [2340.1280000000002, 2543.703, 0, ""]
+      - [2340.1280000000002, 2565.0659999999998, 0, ""]
+      - [2340.9340000000002, 2587.6379999999999, 0, ""]
+      - [2340.5309999999999, 2606.9859999999999, 0, ""]
       - [2226.0140000000001, 2606.6170000000002, 0, ""]
       - [2369.5540000000001, 2682.6060000000002, 0, ""]
       - [2331.6190000000001, 2737.2370000000001, 0, ""]
@@ -1786,7 +2030,7 @@ levels:
       - [2931.2840000000001, 1541.576, 0, ""]
       - [2922.2350000000001, 1541.576, 0, ""]
       - [2922.2350000000001, 1547.8430000000001, 0, ""]
-      - [2917.0940000000001, 1547.8430000000001, 0, ""]
+      - [2915.4270000000001, 1547.9670000000001, 0, ""]
       - [2917.0940000000001, 1531.758, 0, ""]
       - [2813.6190000000001, 1531.758, 0, ""]
       - [2813.6190000000001, 1541.874, 0, ""]
@@ -1833,7 +2077,7 @@ levels:
       - [2899.047, 1596.9670000000001, 0, ""]
       - [2899.047, 1592.817, 0, ""]
       - [2914.7570000000001, 1592.817, 0, ""]
-      - [2914.7570000000001, 1575.624, 0, ""]
+      - [2914.1469999999999, 1576.546, 0, ""]
       - [2920.3899999999999, 1575.624, 0, ""]
       - [2920.3899999999999, 1591.6310000000001, 0, ""]
       - [2924.8359999999998, 1591.6310000000001, 0, ""]
@@ -1870,7 +2114,7 @@ levels:
       - [3402.1990000000001, 1664.8630000000001, 0, ""]
       - [3395.1750000000002, 1664.8630000000001, 0, ""]
       - [3395.1750000000002, 1656.434, 0, ""]
-      - [3390.0239999999999, 1656.434, 0, ""]
+      - [3386.2350000000001, 1653.4269999999999, 0, ""]
       - [3390.0239999999999, 1649.8779999999999, 0, ""]
       - [3397.0479999999998, 1649.8779999999999, 0, ""]
       - [3397.0479999999998, 1531.875, 0, ""]
@@ -1888,8 +2132,8 @@ levels:
       - [3293.0929999999998, 1758.5160000000001, 0, ""]
       - [3308.5450000000001, 1758.5160000000001, 0, ""]
       - [3308.5450000000001, 1768.818, 0, ""]
-      - [3393.77, 1768.818, 0, ""]
-      - [3393.77, 1689.748, 0, ""]
+      - [3396.4899999999998, 1769.0039999999999, 0, ""]
+      - [3395.4360000000001, 1687.3530000000001, 0, ""]
       - [3401.547, 1689.748, 0, ""]
       - [3401.547, 1758.5840000000001, 0, ""]
       - [3426.8809999999999, 1758.5840000000001, 0, ""]
@@ -1963,7 +2207,7 @@ levels:
       - [2339.424, 822.33299999999997, 0, ""]
       - [2337.5309999999999, 819.11599999999999, 0, ""]
       - [2332.799, 816.65499999999997, 0, ""]
-      - [2407.3960000000002, 850.54399999999998, 0, ""]
+      - [2410.4400000000001, 850.649, 0, ""]
       - [2450.2950000000001, 850.54399999999998, 0, ""]
       - [2450.2950000000001, 844.51400000000001, 0, ""]
       - [2467.0070000000001, 844.51400000000001, 0, ""]
@@ -2022,9 +2266,9 @@ levels:
       - [2488.3939999999998, 924.11199999999997, 0, ""]
       - [2488.3939999999998, 929.74900000000002, 0, ""]
       - [2452.1039999999998, 929.74900000000002, 0, ""]
-      - [2452.1039999999998, 926.226, 0, ""]
-      - [2408.0630000000001, 926.226, 0, ""]
-      - [2377.058, 929.80899999999997, 0, ""]
+      - [2451.4670000000001, 927.77999999999997, 0, ""]
+      - [2412.9009999999998, 928.19000000000005, 0, ""]
+      - [2374.3359999999998, 929.83100000000002, 0, ""]
       - [2443.6190000000001, 820.61099999999999, 0, ""]
       - [2443.6190000000001, 827.98699999999997, 0, ""]
       - [2447.4670000000001, 832.79700000000003, 0, ""]
@@ -2203,8 +2447,8 @@ levels:
       - [3189.0630000000001, 1989.3789999999999, 0, ""]
       - [3246.944, 1989.3789999999999, 0, ""]
       - [3246.944, 2108.21, 0, ""]
-      - [3243.23, 2108.21, 0, ""]
-      - [3188.547, 2111.8560000000002, 0, ""]
+      - [3241.8359999999998, 2107.3539999999998, 0, ""]
+      - [3188.645, 2106.5830000000001, 0, ""]
       - [3188.547, 2105.7040000000002, 0, ""]
       - [3116.2269999999999, 2106.2359999999999, 0, ""]
       - [3117.0920000000001, 1989.5340000000001, 0, ""]
@@ -3632,6 +3876,18 @@ levels:
       - [3655.6019999999999, 2533.5709999999999, 0, ""]
       - [3652.2220000000002, 2530.433, 0, ""]
       - [1077.0050000000001, 2616.0030000000002, 0, ""]
+      - [2734.9659999999999, 2681.3029999999999, 0, ""]
+      - [2734.9659999999999, 2668.268, 0, ""]
+      - [2697.4360000000001, 2443.7449999999999, 0, ""]
+      - [2753.6849999999999, 1608.998, 0, ""]
+      - [3229.864, 1608.3510000000001, 0, ""]
+      - [2698.0430000000001, 1476.5730000000001, 0, ""]
+      - [2722.3850000000002, 1476.7729999999999, 0, ""]
+      - [2698.2429999999999, 1524.0599999999999, 0, ""]
+      - [3259.2199999999998, 1476.587, 0, ""]
+      - [3284.364, 1477.1220000000001, 0, ""]
+      - [3282.4920000000002, 1426.0309999999999, 0, ""]
+      - [1235.126, 2059.6309999999999, 0, ""]
     walls:
       - [6, 7, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [7, 8, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -7182,6 +7438,13 @@ levels:
       - [3541, 3542, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [3542, 3543, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [3543, 3534, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [1359, 3545, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [3545, 3546, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [1714, 3548, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [2385, 3549, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [3550, 3551, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [1694, 3552, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [3553, 3554, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   TD_n1:
     doors:
       - [176, 147, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, N1_door1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
