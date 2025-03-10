@@ -42,3 +42,69 @@ gz sim -r -v 3 TD_def.world
 ```
 
 
+### PASAMOS EL PROYECTO AL RMF_wS (creando las carpetas necesarias)
+
+Ahora deberemos seguir los siguientes pasos : 
+
+#### Terminal 1 : Primeros pasos
+
+Para comenzar, debes abrir un terminal y lanzar el siguiente comando para iniciar el contenedor de Docker con la configuración necesaria.
+
+```bash
+cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/
+
+rocker --nvidia --x11 \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  --network host --user \
+  --volume `pwd`/rmf_ws:/home/usuario/rmf_ws --  \
+  ghcr.io/open-rmf/rmf/rmf_demos:latest 	\
+    bash
+```
+Una vez dentro del contenedo Docker, lo que debemos hacer es ubicarnos en rmf_ws, y ejecutar los siguientes comandos para preparar el entorno de trabajo.
+
+```bash
+source /opt/ros/jazzy/setup.bash
+sudo cp -R /root/.gazebo .	
+cd rmf_ws/
+
+rm -rf build/ install/ log/
+colcon build
+source install/setup.bash
+```
+
+Luego, para lanzar el Gazebo y RViz de "test1" ejecutamos:
+
+```bash
+ros2 launch rmf_demos_gz TD.launch.xml \
+  server_uri:="ws://localhost:8000/_internal"
+```
+Con esto, se nos abrirá
+
+
+
+#### Terminal 2 : API Server
+
+Abrimos un segundo terminal donde ejecutaremos el servidor API para la interacción con los servicios:
+
+```bash
+docker run --network host -it \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
+	ghcr.io/open-rmf/rmf-web/api-server:latest
+```
+#### Terminal 3 : Dashboard
+
+En otro terminal, ejecutamos el Dashboard para tener una visualización de las tareas y el estado de los robots:
+```bash
+docker run --network host -it \
+  -e RMF_SERVER_URL=http://localhost:8000 \
+  -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
+	ghcr.io/open-rmf/rmf-web/dashboard:latest
+```
+URL del Dashboard : http://localhost:3000
+
+
+
+
+
+
