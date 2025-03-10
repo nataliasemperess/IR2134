@@ -35,13 +35,14 @@ rmf_fleet:
   use_parking_reservations: True
   reassign_task_interval: 120 # seconds, specify how often a task reassignment should be triggered in the fleet
   robots:
-    tinyRobot1:
+    tinyRobot1: 
         charger: "tinyRobot1_charger"
         finishing_request: # Optionally define any robot-specific finishing request. Overrides the fleet-wide setting.
           type: "park" # [park, charge, nothing]
           waypoint_name: "tinyRobot1_charger" # This is a required field if the finishing_request type is "park"
         responsive_wait: False # Should responsive wait be on/off for this specific robot? Overrides the fleet-wide setting.
-    
+   
+
 
 fleet_manager:
   ip: "127.0.0.1"
