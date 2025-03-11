@@ -75,7 +75,7 @@ source install/setup.bash
 Luego, para lanzar el Gazebo y RViz de "test1" ejecutamos:
 
 ```bash
-ros2 launch rmf_demos_gz TD.launch.xml \
+ros2 launch rmf_demos_gz TD_definitivo.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
 Con esto, se nos abrirá
