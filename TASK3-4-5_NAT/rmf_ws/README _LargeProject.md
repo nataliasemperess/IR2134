@@ -118,5 +118,11 @@ La Dashboard si que me funciona, pero no se me muestran los robots.
 
 ![image](https://github.com/user-attachments/assets/4dfed90d-731a-4c04-958f-f592581da734)
 
+Sin embargo, cuando le envio una task, por ejemplo patrol hacia la cantina, si que me hace la ruta:
+
+
+
+https://github.com/user-attachments/assets/c297565d-31a7-4d80-b8d3-e7a9af649795
+
 
 
