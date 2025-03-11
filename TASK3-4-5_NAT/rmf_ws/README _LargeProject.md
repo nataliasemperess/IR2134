@@ -20,6 +20,14 @@ rocker --nvidia --x11 --name traffic-editor --user   --volume `pwd`/buildings:/r
 
 Ahí nos tendremos que meter a la carpeta de buildings
 
+El mapa se nos quedaría así:
+
+PISO 1
+![image](https://github.com/user-attachments/assets/01593385-5995-4e8a-9cff-768146d8ab5f)
+
+PISO 2
+![image](https://github.com/user-attachments/assets/3b41ee78-3939-43ac-9ca3-d409b2540427)
+
 
 ### ABRIR GAZEBO
 
@@ -72,7 +80,7 @@ colcon build
 source install/setup.bash
 ```
 
-Luego, para lanzar el Gazebo y RViz de "test1" ejecutamos:
+Luego, para lanzar el Gazebo y RViz de "TD_definitivo" ejecutamos:
 
 ```bash
 ros2 launch rmf_demos_gz TD_definitivo.launch.xml \
@@ -80,6 +88,14 @@ ros2 launch rmf_demos_gz TD_definitivo.launch.xml \
 ```
 Con esto, se nos abrirá
 
+Sin embargo, en el rviz no me se me carga el mapa, lo he revisado muchas veces, y comparado algunas cosas, y no he encontrado la solución.
+
+![image](https://github.com/user-attachments/assets/4b80ce90-aff1-400f-8a86-6d35c127aa67)
+
+En cambio, el Gazebo sí que me abre, con los robots y los ascensores:
+
+![image](https://github.com/user-attachments/assets/7c3d4b7e-1231-4a26-b54a-e4747849357a)
+![image](https://github.com/user-attachments/assets/592f5319-6a0c-4354-aa6c-ffdd474bcee1)
 
 
 #### Terminal 2 : API Server
@@ -103,8 +119,17 @@ docker run --network host -it \
 ```
 URL del Dashboard : http://localhost:3000
 
+![image](https://github.com/user-attachments/assets/0a0c10cb-6006-43ff-b888-b0c97467f3c5)
+
+La Dashboard si que me funciona, pero no se me muestran los robots.
 
 
+![image](https://github.com/user-attachments/assets/4dfed90d-731a-4c04-958f-f592581da734)
+
+Sin embargo, cuando le envio una task, por ejemplo patrol hacia la cantina, si que me hace la ruta:
+
+
+https://github.com/user-attachments/assets/c297565d-31a7-4d80-b8d3-e7a9af649795
 
 
 
