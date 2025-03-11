@@ -80,6 +80,14 @@ ros2 launch rmf_demos_gz TD_definitivo.launch.xml \
 ```
 Con esto, se nos abrirá
 
+Sin embargo, en el rviz no me se me carga el mapa, lo he revisado muchas veces, y comparado algunas cosas, y no he encontrado la solución.
+
+![image](https://github.com/user-attachments/assets/4b80ce90-aff1-400f-8a86-6d35c127aa67)
+
+En cambio, el Gazebo sí que me abre, con los robots y los ascensores:
+
+![image](https://github.com/user-attachments/assets/7c3d4b7e-1231-4a26-b54a-e4747849357a)
+![image](https://github.com/user-attachments/assets/592f5319-6a0c-4354-aa6c-ffdd474bcee1)
 
 
 #### Terminal 2 : API Server
