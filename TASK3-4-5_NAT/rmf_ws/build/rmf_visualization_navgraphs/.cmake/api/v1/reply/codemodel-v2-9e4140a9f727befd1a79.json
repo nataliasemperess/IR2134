@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc6172fa6dddc5bdc0cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rmf_visualization_navgraphs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "navgraph_visualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navgraph_visualizer-02d995c641a96eebd56f.json",
+					"name" : "navgraph_visualizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navgraph_visualizer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navgraph_visualizer_node-20743916a14f56cc8ed7.json",
+					"name" : "navgraph_visualizer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_visualization_navgraphs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_visualization_navgraphs_uninstall-8199b2ef5dc42ad4b2e8.json",
+					"name" : "rmf_visualization_navgraphs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1cf029f4acd85fc3c251.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/usuario/rmf_ws/build/rmf_visualization_navgraphs",
+		"source" : "/home/usuario/rmf_ws/src/rmf_visualization_navgraphs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

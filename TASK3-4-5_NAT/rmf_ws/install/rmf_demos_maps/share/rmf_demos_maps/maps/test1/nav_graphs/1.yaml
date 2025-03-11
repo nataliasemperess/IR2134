@@ -1,0 +1,64 @@
+building_name: test1_def
+doors:
+  door1:
+    endpoints:
+    - [6.400401229551388, -4.0982400428861085]
+    - [6.400401229551388, -5.861655807634774]
+    map: L1
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {}
+    - - 1
+      - 0
+      - {}
+    - - 1
+      - 2
+      - {}
+    - - 2
+      - 1
+      - {}
+    - - 2
+      - 3
+      - {}
+    - - 3
+      - 2
+      - {}
+    - - 3
+      - 0
+      - {}
+    - - 0
+      - 3
+      - {}
+    - - 0
+      - 4
+      - {door_name: door1}
+    - - 4
+      - 0
+      - {door_name: door1}
+    vertices:
+    - - 4.889684352120301
+      - -4.889684352120301
+      - {is_charger: true, is_parking_spot: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
+        spawn_robot_type: TinyRobot}
+    - - 1.008741881842418
+      - -4.8565322922129255
+      - {name: sofas}
+    - - 1.008741881842418
+      - -1.1515206649243308
+      - {is_parking_spot: false, name: park}
+    - - 4.868071947283929
+      - -1.1515206649243308
+      - {name: esquina_sup}
+    - - 8.109932672739689
+      - -4.825629487107524
+      - {name: entrada_ascensor}
+  L2:
+    lanes: []
+    vertices: []
+lifts:
+  L1:
+    dims: [2.0, 2.0]
+    position: [8.31246339860451, -1.9558737408481202, 3.15]
