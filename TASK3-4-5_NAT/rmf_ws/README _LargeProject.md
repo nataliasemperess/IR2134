@@ -20,6 +20,12 @@ rocker --nvidia --x11 --name traffic-editor --user   --volume `pwd`/buildings:/r
 
 Ahí nos tendremos que meter a la carpeta de buildings
 
+El mapa se nos quedaría así:
+
+![image](https://github.com/user-attachments/assets/01593385-5995-4e8a-9cff-768146d8ab5f)
+
+![image](https://github.com/user-attachments/assets/3b41ee78-3939-43ac-9ca3-d409b2540427)
+
 
 ### ABRIR GAZEBO
 
@@ -72,7 +78,7 @@ colcon build
 source install/setup.bash
 ```
 
-Luego, para lanzar el Gazebo y RViz de "test1" ejecutamos:
+Luego, para lanzar el Gazebo y RViz de "TD_definitivo" ejecutamos:
 
 ```bash
 ros2 launch rmf_demos_gz TD_definitivo.launch.xml \
@@ -119,7 +125,6 @@ La Dashboard si que me funciona, pero no se me muestran los robots.
 ![image](https://github.com/user-attachments/assets/4dfed90d-731a-4c04-958f-f592581da734)
 
 Sin embargo, cuando le envio una task, por ejemplo patrol hacia la cantina, si que me hace la ruta:
-
 
 
 https://github.com/user-attachments/assets/c297565d-31a7-4d80-b8d3-e7a9af649795
