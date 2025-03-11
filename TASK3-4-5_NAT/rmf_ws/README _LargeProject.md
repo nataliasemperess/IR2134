@@ -104,6 +104,10 @@ docker run --network host -it \
 URL del Dashboard : http://localhost:3000
 
 
+![image](https://github.com/user-attachments/assets/d1e9c1c0-dbc4-469f-bd2a-f1b1677d9f94)
+
+
+
 
 
 
