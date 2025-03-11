@@ -22,8 +22,10 @@ Ahí nos tendremos que meter a la carpeta de buildings
 
 El mapa se nos quedaría así:
 
+PISO 1
 ![image](https://github.com/user-attachments/assets/01593385-5995-4e8a-9cff-768146d8ab5f)
 
+PISO 2
 ![image](https://github.com/user-attachments/assets/3b41ee78-3939-43ac-9ca3-d409b2540427)
 
 
