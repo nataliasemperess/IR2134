@@ -111,6 +111,11 @@ docker run --network host -it \
 ```
 URL del Dashboard : http://localhost:3000
 
+![image](https://github.com/user-attachments/assets/0a0c10cb-6006-43ff-b888-b0c97467f3c5)
+
+La Dashboard si que me funciona, pero no se me muestran los robots.
+
+
 ![image](https://github.com/user-attachments/assets/4dfed90d-731a-4c04-958f-f592581da734)
 
 
