@@ -264,6 +264,7 @@ levels:
       - [3703, 3623, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [3698, 3704, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [3704, 3703, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [3593, 3705, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     measurements:
@@ -4140,8 +4141,8 @@ levels:
       - [1442.942, 1496.329, 0, ""]
       - [1583.914, 1498.8579999999999, 0, ""]
       - [1618.05, 1477.9960000000001, 0, tinyRobot_1_charger, {is_charger: [4, true], is_holding_point: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, tinyRobot_1], spawn_robot_type: [1, TinyRobot]}]
-      - [1566.213, 1455.2380000000001, 0, ""]
-      - [1563.6849999999999, 1342.7139999999999, 0, ""]
+      - [1589.5820000000001, 1458.2660000000001, 0, ""]
+      - [1560.3050000000001, 1435.4949999999999, 0, ""]
       - [1790.749, 1478.2149999999999, 0, ""]
       - [1078.299, 2086.2559999999999, 0, cleanerbot_charger2, {is_charger: [4, true], is_holding_point: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, cleanerBotA_2], spawn_robot_type: [1, CleanerBotA]}]
       - [1181.3679999999999, 2086.2559999999999, 0, clase_Rob]
@@ -4253,6 +4254,7 @@ levels:
       - [2502.5929999999998, 2150.145, 0, ""]
       - [2505.3490000000002, 1475.6510000000001, 0, ""]
       - [2508.636, 1700.5889999999999, 0, ""]
+      - [1560.3050000000001, 1312.529, 0, ""]
     walls:
       - [4, 5, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [5, 6, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -11001,7 +11003,7 @@ levels:
       - [1697.048, 1747.914, 0, "", {lift_cabin: [1, lift]}]
       - [3611.9140000000002, 1710.7719999999999, 0, ""]
       - [982.04999999999995, 2733.0369999999998, 0, "", {lift_cabin: [1, lift_izq]}]
-      - [1697.048, 1586.838, 0, ""]
+      - [1697.048, 1586.838, 0, salida_ascensor]
       - [1482.713, 1586.838, 0, ""]
       - [1461.1579999999999, 1566.067, 0, ""]
       - [1293.422, 1566.067, 0, ""]
