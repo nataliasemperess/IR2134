@@ -33,19 +33,19 @@ PLANTA 1
 ```bash
 # Se hace dentro del root
 cd buildings/
-ros2 run rmf_building_map_tools building_map_generator gazebo TD_definitivo.building.yaml TD_definitivo.world ./TD_definitivo_world
+ros2 run rmf_building_map_tools building_map_generator gazebo biblioteca.building.yaml biblioteca.world ./biblioteca_world
 
 ```
 
 ```bash
-ros2 run rmf_building_map_tools building_map_model_downloader TD_definitivo.building.yaml -e ./models
+ros2 run rmf_building_map_tools building_map_model_downloader biblioteca.building.yaml -e ./models
 
-export GZ_SIM_RESOURCE_PATH=`pwd`/TD_definitivo_world:`pwd`/models
+export GZ_SIM_RESOURCE_PATH=`pwd`/biblioteca_world:`pwd`/models
 
 // Usamos este export para cuando tengamos ya el robot, sino solo usamos el primer export
-export GZ_SIM_RESOURCE_PATH=`pwd`/TD_definitivo_world:`pwd`/models:/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models
+export GZ_SIM_RESOURCE_PATH=`pwd`/biblioteca_world:`pwd`/models:/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models
 
-gz sim -r -v 3 TD_definitivo.world
+gz sim -r -v 3 biblioteca.world
 ```
 
 
