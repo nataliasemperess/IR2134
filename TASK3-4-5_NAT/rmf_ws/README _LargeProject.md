@@ -22,10 +22,10 @@ Ahí nos tendremos que meter a la carpeta de buildings
 
 El mapa se nos quedaría así:
 
-PISO 1
+PLANTA 0
 ![image](https://github.com/user-attachments/assets/01593385-5995-4e8a-9cff-768146d8ab5f)
 
-PISO 2
+PLANTA 1
 ![image](https://github.com/user-attachments/assets/3b41ee78-3939-43ac-9ca3-d409b2540427)
 
 
@@ -86,7 +86,7 @@ Luego, para lanzar el Gazebo y RViz de "TD_definitivo" ejecutamos:
 ros2 launch rmf_demos_gz TD_definitivo.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
-Con esto, se nos abrirá
+Con esto, se nos abrirá el Gazebo y el Rviz:
 
 Sin embargo, en el rviz no me se me carga el mapa, lo he revisado muchas veces, y comparado algunas cosas, y no he encontrado la solución.
 
