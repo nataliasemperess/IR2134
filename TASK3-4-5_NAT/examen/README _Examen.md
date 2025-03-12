@@ -22,10 +22,12 @@ Ahí nos tendremos que meter a la carpeta de buildings
 El mapa se nos quedaría así:
 
 PLANTA 0
-![image](https://github.com/user-attachments/assets/01593385-5995-4e8a-9cff-768146d8ab5f)
 
 PLANTA 1
-![image](https://github.com/user-attachments/assets/3b41ee78-3939-43ac-9ca3-d409b2540427)
+
+PLANTA 2 - ENTRADA
+
+![image](https://github.com/user-attachments/assets/082d3a88-deec-471a-8e85-7f6a7b7ea0b4)
 
 
 ### ABRIR GAZEBO
