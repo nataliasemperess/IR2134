@@ -7,7 +7,7 @@ crowd_sim:
   enable: 0
   goal_sets: []
   model_types: []
-  obstacle_set: {class: 1, file_name: L2_entrada_navmesh.nav, type: nav_mesh}
+  obstacle_set: {class: 1, file_name: L0_navmesh.nav, type: nav_mesh}
   states:
     - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
   transitions: []
@@ -15,6 +15,35 @@ crowd_sim:
 graphs:
   {}
 levels:
+  L0:
+    drawing:
+      filename: ../../rmf_demos_ws/buildings/CD_ns-1.png
+    elevation: 0
+    floors:
+      - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [3, 0, 1, 2]
+    layers:
+      {}
+    vertices:
+      - [195.22499999999999, 41.002000000000002, 0, ""]
+      - [4639.1899999999996, 41.180999999999997, 0, ""]
+      - [4638.3999999999996, 6579.1570000000002, 0, ""]
+      - [195.17699999999999, 6578.7120000000004, 0, ""]
+      - [201.24100000000001, 6220.3410000000003, 0, ""]
+  L1:
+    drawing:
+      filename: ../../rmf_demos_ws/buildings/CD_n0-1.png
+    elevation: 10
+    floors:
+      - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [3, 0, 1, 2]
+    layers:
+      {}
+    vertices:
+      - [195.67400000000001, 42.715000000000003, 0, ""]
+      - [4637.7709999999997, 43.564, 0, ""]
+      - [4637.2449999999999, 6578.2520000000004, 0, ""]
+      - [195.73599999999999, 6579.6130000000003, 0, ""]
   L2_entrada:
     doors:
       - [52, 83, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part1_1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
@@ -34,41 +63,6 @@ levels:
       - [227, 226, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part2_6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
       - [200, 202, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part2_5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
       - [1078, 129, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part2_7_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [50, 49, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part6_9_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [775, 51, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part6_8], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [745, 754, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part6_6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [756, 774, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part6_7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [181, 742, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part6_5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [184, 190, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part6_4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [72, 73, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part6_3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [64, 65, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part6_1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [66, 67, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part6_2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [808, 809, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part5_3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [810, 812, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part5_4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [806, 801, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part5_5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [800, 797, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part5_6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [819, 818, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part5_2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [821, 788, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part5_1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [817, 793, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part5_7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [432, 433, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part5_8_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [689, 682, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part3_1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [691, 690, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part3_4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [673, 674, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part3_2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [664, 670, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part3_3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [655, 662, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part3_5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [654, 653, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part3_8], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [504, 698, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part3_6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [501, 503, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part3_7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [493, 498, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part3_9], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [484, 490, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part3_10_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [631, 479, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part4_8_end], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [474, 630, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part4_7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [469, 470, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part4_6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [466, 467, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part4_5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [463, 464, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part4_4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [451, 457, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, part4_2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [448, 449, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part4_1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [458, 462, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part4_3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
     drawing:
       filename: ../../rmf_demos_ws/buildings/CD_n1-1.png
     elevation: 20
@@ -538,7 +532,7 @@ levels:
       - [939.11500000000001, 5749.3549999999996, 0, ""]
       - [986.71900000000005, 5748.9709999999995, 0, ""]
       - [994.78099999999995, 5748.9709999999995, 0, ""]
-      - [1000.422, 5752.165, 0, ""]
+      - [1003.994, 5748.9709999999995, 0, ""]
       - [994.78099999999995, 5979.951, 0, ""]
       - [1138.7439999999999, 5979.951, 0, ""]
       - [1138.7439999999999, 5953.8459999999995, 0, ""]
@@ -588,10 +582,10 @@ levels:
       - [2380.2759999999998, 5757.6170000000002, 0, ""]
       - [2380.2759999999998, 5748.6350000000002, 0, ""]
       - [2605.788, 5748.6350000000002, 0, ""]
-      - [2605.4319999999998, 5755.1750000000002, 0, ""]
+      - [2605.788, 5757.777, 0, ""]
       - [2651.2339999999999, 5748.0640000000003, 0, ""]
-      - [2649.3690000000001, 5756.0450000000001, 0, ""]
-      - [2665.4650000000001, 5750.8249999999998, 0, ""]
+      - [2651.2339999999999, 5755.991, 0, ""]
+      - [2659.0509999999999, 5755.991, 0, ""]
       - [2659.0509999999999, 5980.5529999999999, 0, ""]
       - [2511.442, 5981.3059999999996, 0, ""]
       - [2511.1120000000001, 5954.5919999999996, 0, ""]
@@ -776,7 +770,7 @@ levels:
       - [3137.4409999999998, 5953.0749999999998, 0, ""]
       - [3137.4409999999998, 5981.9499999999998, 0, ""]
       - [2995.5450000000001, 5981.9499999999998, 0, ""]
-      - [2999.4009999999998, 5751.8310000000001, 0, ""]
+      - [2995.5450000000001, 5752.317, 0, ""]
       - [2985.7440000000001, 5752.317, 0, ""]
       - [2936.5059999999999, 5751.4589999999998, 0, ""]
       - [2825.7930000000001, 5751.4589999999998, 0, ""]
@@ -1171,7 +1165,6 @@ levels:
       - [1516.068, 1409.643, 0, ""]
       - [1516.068, 1306.5440000000001, 0, ""]
       - [1728.6189999999999, 1306.5440000000001, 0, ""]
-      - [1151.759, 5816.9639999999999, 0, ""]
     walls:
       - [15, 16, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [16, 17, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
