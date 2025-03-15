@@ -57,11 +57,13 @@ gz sim -r -v 3 biblioteca.world
 
 Ahora deberemos seguir los siguientes pasos : 
 
-#### Terminal 1 : Primeros pasos
+#### Terminal 1 :  Create a ROS workspace
 
-Para comenzar, debes abrir un terminal y lanzar el siguiente comando para iniciar el contenedor de Docker con la configuración necesaria.
+Para comenzar, debes abrir un terminal y lanzar el siguiente comando para crear el workspace e iniciar el contenedor de Docker con la configuración necesaria.
 
 ```bash
+mkdir -p //home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/rmf_ws/src
+
 cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/
 
 rocker --nvidia --x11 \
@@ -77,13 +79,19 @@ Una vez dentro del contenedo Docker, lo que debemos hacer es ubicarnos en rmf_ws
 source /opt/ros/jazzy/setup.bash
 sudo cp -R /root/.gazebo .	
 cd rmf_ws/
+```
 
+Debemos crear las carpetas necesarias, y meter los archivos correspondientes en cada carpeta : 
+![image](https://github.com/user-attachments/assets/8dd420bb-f5a4-4794-9318-152921941c7a)
+
+
+```bash
 rm -rf build/ install/ log/
 colcon build
 source install/setup.bash
 ```
 
-Luego, para lanzar el Gazebo y RViz de "TD_definitivo" ejecutamos:
+Luego, para lanzar el Gazebo y RViz de "biblioteca" ejecutamos:
 
 ```bash
 ros2 launch rmf_demos_gz biblioteca.launch.xml \
