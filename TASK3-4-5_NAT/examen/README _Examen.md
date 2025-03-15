@@ -6,7 +6,13 @@ En primer lugar, deberemos crear el mapa a través del Traffic-Editor :
 
 ```bash
 cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/large_project
-pdftoppm TD_n0.pdf TD_n0 -png -singlefile
+pdftoppm CD-n0-1.pdf CD-n0-1 -png -singlefile
+pdftoppm CD-n1-1.pdf CD-n1-1 -png -singlefile
+pdftoppm CD-n2-1.pdf CD-n2-1 -png -singlefile
+pdftoppm CD-n3-1.pdf CD-n3-1 -png -singlefile
+pdftoppm CD-n4-1.pdf CD-n4-1 -png -singlefile
+pdftoppm CD-n5-1.pdf CD-n5-1 -png -singlefile
+pdftoppm CD-ns-1.pdf CD-ns-1 -png -singlefile
 ```
 2) Luego creamos buildings, y pasamos ahí los png
 3) Nos metemos al Docker:
@@ -16,19 +22,15 @@ cd ~/Documentos/GitHub/IR2134/TASK3-4-5_NAT/examen
 
 rocker --nvidia --x11 --name traffic-editor --user   --volume `pwd`/buildings:/rmf_demos_ws/buildings --   ghcr.io/open-rmf/rmf/rmf_demos:latest   bash
 ```
+Una vez dentro, comenzamos a construir a través de traffic-editor, el edificio de la biblioteca, que estará guardado en la carpeta de buildings.
 
-Ahí nos tendremos que meter a la carpeta de buildings
+El mapa creado en traffic-editor se nos quedaría así:
 
-El mapa se nos quedaría así:
-
-PLANTA 0
-
-PLANTA 1
-
-PLANTA 2 - ENTRADA
+PLANTA 2 - (ENTRADA)
 
 ![image](https://github.com/user-attachments/assets/082d3a88-deec-471a-8e85-7f6a7b7ea0b4)
 
+Podemos ir probando que el gazebo funciona correctamente con los siguientes comandos : 
 
 ### ABRIR GAZEBO
 
@@ -84,19 +86,10 @@ source install/setup.bash
 Luego, para lanzar el Gazebo y RViz de "TD_definitivo" ejecutamos:
 
 ```bash
-ros2 launch rmf_demos_gz TD_definitivo.launch.xml \
+ros2 launch rmf_demos_gz biblioteca.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
 Con esto, se nos abrirá el Gazebo y el Rviz:
-
-Sin embargo, en el rviz no me se me carga el mapa, lo he revisado muchas veces, y comparado algunas cosas, y no he encontrado la solución.
-
-![image](https://github.com/user-attachments/assets/4b80ce90-aff1-400f-8a86-6d35c127aa67)
-
-En cambio, el Gazebo sí que me abre, con los robots y los ascensores:
-
-![image](https://github.com/user-attachments/assets/7c3d4b7e-1231-4a26-b54a-e4747849357a)
-![image](https://github.com/user-attachments/assets/592f5319-6a0c-4354-aa6c-ffdd474bcee1)
 
 
 #### Terminal 2 : API Server
@@ -112,6 +105,7 @@ docker run --network host -it \
 #### Terminal 3 : Dashboard
 
 En otro terminal, ejecutamos el Dashboard para tener una visualización de las tareas y el estado de los robots:
+
 ```bash
 docker run --network host -it \
   -e RMF_SERVER_URL=http://localhost:8000 \
@@ -120,17 +114,6 @@ docker run --network host -it \
 ```
 URL del Dashboard : http://localhost:3000
 
-![image](https://github.com/user-attachments/assets/0a0c10cb-6006-43ff-b888-b0c97467f3c5)
-
-La Dashboard si que me funciona, pero no se me muestran los robots.
-
-
-![image](https://github.com/user-attachments/assets/4dfed90d-731a-4c04-958f-f592581da734)
-
-Sin embargo, cuando le envio una task, por ejemplo patrol hacia la cantina, si que me hace la ruta:
-
-
-https://github.com/user-attachments/assets/c297565d-31a7-4d80-b8d3-e7a9af649795
 
 
 
