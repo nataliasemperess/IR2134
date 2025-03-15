@@ -3,17 +3,6 @@
 En primer lugar, deberemos crear el mapa a través del Traffic-Editor : 
 
 1) Descargamos los mapas, y los convertimos a png :
-
-```bash
-cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/large_project
-pdftoppm CD-n0-1.pdf CD-n0-1 -png -singlefile
-pdftoppm CD-n1-1.pdf CD-n1-1 -png -singlefile
-pdftoppm CD-n2-1.pdf CD-n2-1 -png -singlefile
-pdftoppm CD-n3-1.pdf CD-n3-1 -png -singlefile
-pdftoppm CD-n4-1.pdf CD-n4-1 -png -singlefile
-pdftoppm CD-n5-1.pdf CD-n5-1 -png -singlefile
-pdftoppm CD-ns-1.pdf CD-ns-1 -png -singlefile
-```
 2) Luego creamos buildings, y pasamos ahí los png
 3) Nos metemos al Docker:
    
@@ -40,7 +29,6 @@ cd buildings/
 ros2 run rmf_building_map_tools building_map_generator gazebo biblioteca.building.yaml biblioteca.world ./biblioteca_world
 
 ```
-
 ```bash
 ros2 run rmf_building_map_tools building_map_model_downloader biblioteca.building.yaml -e ./models
 
@@ -51,6 +39,7 @@ export GZ_SIM_RESOURCE_PATH=`pwd`/biblioteca_world:`pwd`/models:/rmf_demos_ws/in
 
 gz sim -r -v 3 biblioteca.world
 ```
+
 ### PASOS EXAMEN
 
 #### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. 
@@ -66,7 +55,7 @@ Guardamos los cambios en Git
 ```bash
 git init
 git add README.md
-git commit -m " Create workspace"
+git commit -m "Create workspace"
 git push
 ```
 
@@ -92,26 +81,105 @@ Guardamos los cambios en Git
 ```bash
 git init
 git add README.md
-git commit -m " Create package"
+git commit -m "Create package"
 git push
 ```
 
+#### 4) Download the floor plans of the library and convert the PDFs to PNGs and store in "map" folder:
+
+```bash
+
+cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src/rmf_library/maps
+
+pdftoppm CD-n1-1.pdf CD-n1-1 -png -singlefile
+pdftoppm CD-n2-1.pdf CD-n2-1 -png -singlefile
+pdftoppm CD-n3-1.pdf CD-n3-1 -png -singlefile
+pdftoppm CD-n4-1.pdf CD-n4-1 -png -singlefile
+```
+Guardamos los cambios en Git
+
+```bash
+git init
+git add maps
+git commit -m "Create floorplans"
+git push
+
+```
+#### 5) Create a building model named "library.building.yaml" in the "maps" folder with traffic-editor.
+
+```bash
+cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src/rmf_library/maps
+
+```
+Guardamos los cambios en Git
+
+```bash
+git init
+git add maps
+git commit -m "Create building model"
+git push
+
+```
+Si vamos añadiendo cosas vamos comentandolo como walls, navigation graphs, etc.
+
+#### 6) Generate the Gazebo world and navigation graphs.
+
+(Se puede hacer manualmente con menos puntuación o con CMakeLists.txt file con mayor puntuación, en ambos casos debemos añadir las intrucciones utilizadas.)
+
+```bash
+...
+```
+Guardamos los cambios en Git
+
+```bash
+git init
+git add "rellenar"
+git commit -m "Create gazebo world"
+git push
+
+```
+#### 7) Create a launch file named "library.launch.xml" for running the simulation and visualization (you can create additional launch files if needed)
+
+- Create the configuration files for RViz and RMF in the "config" folder.
+- Add the appropiate instructions for launching the simulation to the documentation.
+
+Guardamos los cambios en Git
+
+```bash
+git init
+git add "rellenar"
+git commit -m "Create launch file"
+git push
+
+```
+
+#### 8) Add the instructions for running several patrol and clean tasks in the command line.
+
+(Include some figures with snapshots of Gazebo and RViz for each task.
+
+Guardamos los cambios en Git
+
+```bash
+git init
+git add "rellenar"
+git commit -m "Instructions for running tasks."
+git push
+
+```
+
+#### 9) When finished, submit a ZIP archive of your package (not the workspace) to the task in Aula Virtual.
 
 
 
-
-
-### PASAMOS EL PROYECTO AL RMF_wS (creando las carpetas necesarias)
+### EXTRAS DE OTRAS PRÁCTICAS (BORRAR DESPUÉS)
 
 Ahora deberemos seguir los siguientes pasos : 
 
-#### Terminal 1 :  Create a ROS workspace
+#### Terminal 1 : 
 
 Para comenzar, debes abrir un terminal y lanzar el siguiente comando para crear el workspace e iniciar el contenedor de Docker con la configuración necesaria.
 
 ```bash
-mkdir -p //home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/rmf_ws/src
-
 cd /home/usuario/Documentos/GitHub/IR2134/TASK3-4-5_NAT/
 
 rocker --nvidia --x11 \
