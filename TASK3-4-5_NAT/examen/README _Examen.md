@@ -51,6 +51,23 @@ export GZ_SIM_RESOURCE_PATH=`pwd`/biblioteca_world:`pwd`/models:/rmf_demos_ws/in
 
 gz sim -r -v 3 biblioteca.world
 ```
+### PASOS EXAMEN
+
+#### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. (Commit : Create workspace")
+
+```bash
+mkdir -p /home/usuario/Documentos/GitHub/IR2134/exam_ws/src
+cd /home/usuario/Documentos/GitHub/IR2134/exam_ws
+touch README.md
+echo "# exam_ws - ROS 2 Workspace" > README.md
+```
+Guardamos los cambios en Git
+
+```bash
+git init
+git add README.md
+git commit -m " Create workspace"
+```
 
 
 ### PASAMOS EL PROYECTO AL RMF_wS (creando las carpetas necesarias)
