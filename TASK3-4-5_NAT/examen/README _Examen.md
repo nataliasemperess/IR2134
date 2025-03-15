@@ -53,7 +53,7 @@ gz sim -r -v 3 biblioteca.world
 ```
 ### PASOS EXAMEN
 
-#### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. (Commit : Create workspace")
+#### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. 
 
 ```bash
 mkdir -p /home/usuario/Documentos/GitHub/IR2134/exam_ws/src
@@ -67,7 +67,38 @@ Guardamos los cambios en Git
 git init
 git add README.md
 git commit -m " Create workspace"
+git push
 ```
+
+#### 2) Run the Open-RMF Docker container with : 
+
+```bash
+rocker --nvidia --x11 --name rmf_library \
+-e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+--network host --user --volume `pwd`/exam_ws:/exam_ws --\
+ghcr.io/open-rmf/rmf/rmf_demos:latest bash
+```
+#### 3) Create a ROS package named "rmf_library" and the folders : "launch", "config" and "maps".
+
+```bash
+
+cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src
+ros2 pkg create rmf_library --build-type ament_cmake --license Apache-2.0
+cd rmf_library
+mkdir launch config maps
+```
+Guardamos los cambios en Git
+
+```bash
+git init
+git add README.md
+git commit -m " Create package"
+git push
+```
+
+
+
+
 
 
 ### PASAMOS EL PROYECTO AL RMF_wS (creando las carpetas necesarias)
