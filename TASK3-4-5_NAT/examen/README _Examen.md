@@ -72,7 +72,7 @@ ghcr.io/open-rmf/rmf/rmf_demos:latest bash
 ```bash
 
 cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src
-source /opt/ros/humble_setup.bash
+source /opt/ros/humble/setup.bash
 ros2 pkg create rmf_library --build-type ament_cmake --license Apache-2.0
 cd rmf_library
 mkdir launch config maps
