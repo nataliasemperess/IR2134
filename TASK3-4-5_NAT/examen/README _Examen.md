@@ -9,7 +9,7 @@ En primer lugar, deberemos crear el mapa a través del Traffic-Editor :
 ```bash
 cd ~/Documentos/GitHub/IR2134/TASK3-4-5_NAT/examen
 
-rocker --nvidia --x11 --name traffic-editor --user   --volume `pwd`/buildings:/rmf_demos_ws/buildings --   ghcr.io/open-rmf/rmf/rmf_demos:latest   bash
+rocker --nvidia --x11 --name traffic-editor --user   --volume `pwd`/buildings:/rmf_demos_ws/buildings --    ghcr.io/open-rmf/rmf/rmf_demos:latest   bash
 ```
 Una vez dentro, comenzamos a construir a través de traffic-editor, el edificio de la biblioteca, que estará guardado en la carpeta de buildings.
 
@@ -62,17 +62,15 @@ git push
 #### 2) Run the Open-RMF Docker container with : 
 
 ```bash
-rocker --nvidia --x11 --name rmf_library \
--e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
---network host --user --volume `pwd`/exam_ws:/exam_ws --\
-ghcr.io/open-rmf/rmf/rmf_demos:latest bash
+rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST --network host --user --volume `pwd`/exam_ws:/exam_ws -- ghcr.io/open-rmf/rmf/rmf_demos:latest bash
+
 ```
 #### 3) Create a ROS package named "rmf_library" and the folders : "launch", "config" and "maps".
 
 ```bash
 
 cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src
-source /opt/ros/humble_setup.bash
+source /opt/ros/humble/setup.bash
 ros2 pkg create rmf_library --build-type ament_cmake --license Apache-2.0
 cd rmf_library
 mkdir launch config maps
