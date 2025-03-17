@@ -62,10 +62,8 @@ git push
 #### 2) Run the Open-RMF Docker container with : 
 
 ```bash
-rocker --nvidia --x11 --name rmf_library \
--e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
---network host --user --volume `pwd`/exam_ws:/exam_ws --\
-ghcr.io/open-rmf/rmf/rmf_demos:latest bash
+rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST --network host --user --volume `pwd`/exam_ws:/exam_ws -- ghcr.io/open-rmf/rmf/rmf_demos:latest bash
+
 ```
 #### 3) Create a ROS package named "rmf_library" and the folders : "launch", "config" and "maps".
 
