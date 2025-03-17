@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Natalia Sempere - exam_ws
 
 ### PASOS EXAMEN
@@ -73,6 +71,3 @@ Guardamos los cambios en Git
 
 #### 9) When finished, submit a ZIP archive of your package (not the workspace) to the task in Aula Virtual.
 
-
-
->>>>>>> fcb7fbf2dde1f7ba1ecff096c1b1ad20219baaff
