@@ -1,5 +1,24 @@
 # Natalia Sempere - exam_ws
 
+### ABRIR GAZEBO
+
+```bash
+# Se hace dentro del root
+ cd /exam_ws/src/rmf_library/maps
+ros2 run rmf_building_map_tools building_map_generator gazebo library.building.yaml library.world ./library_world
+
+```
+```bash
+ros2 run rmf_building_map_tools building_map_model_downloader library.building.yaml -e ./models
+
+export GZ_SIM_RESOURCE_PATH=`pwd`/library_world:`pwd`/models
+
+// Usamos este export para cuando tengamos ya el robot, sino solo usamos el primer export
+export GZ_SIM_RESOURCE_PATH=`pwd`/library_world:`pwd`/models:/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models
+
+gz sim -r -v 3 library.world
+``
+
 ### PASOS EXAMEN
 
 #### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. 
