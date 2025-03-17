@@ -13,6 +13,8 @@ touch README.md
 #### 2) Run the Open-RMF Docker container with : 
 
 ```bash
+cd /home/usuario/Documentos/GitHub/IR2134/exam_ws
+
 rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST --network host --user --volume `pwd`/exam_ws:/exam_ws -- ghcr.io/open-rmf/rmf/rmf_demos:latest bash
 
 ```
