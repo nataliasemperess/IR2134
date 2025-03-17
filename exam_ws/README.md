@@ -4,7 +4,7 @@
 
 ```bash
 # Se hace dentro del root
-cd buildings/
+ cd /exam_ws/src/rmf_library/maps
 ros2 run rmf_building_map_tools building_map_generator gazebo library.building.yaml library.world ./library_world
 
 ```
