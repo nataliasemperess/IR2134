@@ -9,7 +9,7 @@ En primer lugar, deberemos crear el mapa a través del Traffic-Editor :
 ```bash
 cd ~/Documentos/GitHub/IR2134/TASK3-4-5_NAT/examen
 
-rocker --nvidia --x11 --name traffic-editor --user   --volume `pwd`/buildings:/rmf_demos_ws/buildings --   ghcr.io/open-rmf/rmf/rmf_demos:latest   bash
+rocker --nvidia --x11 --name traffic-editor --user   --volume `pwd`/buildings:/rmf_demos_ws/buildings --    ghcr.io/open-rmf/rmf/rmf_demos:latest   bash
 ```
 Una vez dentro, comenzamos a construir a través de traffic-editor, el edificio de la biblioteca, que estará guardado en la carpeta de buildings.
 
