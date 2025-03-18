@@ -80,16 +80,39 @@ rm -rf build/ install/ log/
 colcon build
 source install/setup.bash
 ```
-```bash
-ros2 launch rmf_library library.xml server_uri:="ws://localhost:8000/_internal"
-```
+
 #### 7) Create a launch file named "library.launch.xml" for running the simulation and visualization (you can create additional launch files if needed)
 
 - Create the configuration files for RViz and RMF in the "config" folder.
 - Add the appropiate instructions for launching the simulation to the documentation.
+- 
+#### Terminal 1 : Lanzar Gazebo y RViz
+
+```bash 
+ros2 launch rmf_library library.xml server_uri:="ws://localhost:8000/_internal"
+```
+#### Terminal 2 : API Server
+
+Abrimos un segundo terminal donde ejecutaremos el servidor API para la interacción con los servicios:
+
+```bash
+docker run --network host -it \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
+	ghcr.io/open-rmf/rmf-web/api-server:latest
+```
+#### Terminal 3 : Dashboard
+
+En otro terminal, ejecutamos el Dashboard para tener una visualización de las tareas y el estado de los robots:
+```bash
+docker run --network host -it \
+  -e RMF_SERVER_URL=http://localhost:8000 \
+  -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
+	ghcr.io/open-rmf/rmf-web/dashboard:latest
+```
+URL del Dashboard : http://localhost:3000
 
 Guardamos los cambios en Git
-
 
 #### 8) Add the instructions for running several patrol and clean tasks in the command line.
 
