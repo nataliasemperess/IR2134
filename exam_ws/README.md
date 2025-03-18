@@ -72,9 +72,17 @@ cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src/rmf_library/maps
 (Se puede hacer manualmente con menos puntuación o con CMakeLists.txt file con mayor puntuación, en ambos casos debemos añadir las intrucciones utilizadas.)
 
 ```bash
-...
-```
+source /opt/ros/jazzy/setup.bash
+sudo cp -R /root/.gazebo .	
+cd ../../exam_ws
 
+rm -rf build/ install/ log/
+colcon build
+source install/setup.bash
+```
+```bash
+ros2 launch rmf_library library.xml server_uri:="ws://localhost:8000/_internal"
+```
 #### 7) Create a launch file named "library.launch.xml" for running the simulation and visualization (you can create additional launch files if needed)
 
 - Create the configuration files for RViz and RMF in the "config" folder.
