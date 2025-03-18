@@ -85,7 +85,7 @@ source install/setup.bash
 
 - Create the configuration files for RViz and RMF in the "config" folder.
 - Add the appropiate instructions for launching the simulation to the documentation.
-- 
+  
 #### Terminal 1 : Lanzar Gazebo y RViz
 
 ```bash 
