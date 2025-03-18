@@ -89,7 +89,7 @@ source install/setup.bash
 #### Terminal 1 : Lanzar Gazebo y RViz
 
 ```bash 
-ros2 launch rmf_library library.xml server_uri:="ws://localhost:8000/_internal"
+ros2 launch rmf_library library.launch.xml server_uri:="ws://localhost:8000/_internal"
 ```
 #### Terminal 2 : API Server
 
