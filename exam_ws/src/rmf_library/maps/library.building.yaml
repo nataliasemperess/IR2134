@@ -1,7 +1,7 @@
 coordinate_system: reference_image
 crowd_sim:
   agent_groups:
-    - {agents_name: [tinyRobot1], agents_number: 1, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+    - {agents_name: [tinyRobot1, tinyRobot2], agents_number: 2, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
   agent_profiles:
     - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
   enable: 0
@@ -73,9 +73,9 @@ levels:
       filename: CD_n1-1.png
     elevation: 0
     fiducials:
-      - [1996, 942, punto1]
-      - [1964, 885, punto2]
       - [1992.998, 3568.9639999999999, punto3]
+      - [1962.1489999999999, 883.22799999999995, punto2]
+      - [1996.337, 942.40800000000002, punto1]
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [2, 3, 4, 5]
@@ -1584,6 +1584,8 @@ levels:
       - [3820.152, 1051.5730000000001, 0, ""]
       - [3732.4279999999999, 1195.5309999999999, 0, ""]
       - [3732.4279999999999, 1861.337, 0, ""]
+      - [1963.0070000000001, 884.97400000000005, 0, ""]
+      - [1996.3889999999999, 942.38300000000004, 0, ""]
     walls:
       - [15, 16, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [16, 17, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -2893,9 +2895,9 @@ levels:
       filename: CD_n2-1.png
     elevation: 10
     fiducials:
-      - [1995, 941, punto1]
-      - [1964, 885, punto2]
       - [1993.0060000000001, 3568.933, punto3]
+      - [1963.7349999999999, 884.25199999999995, punto2]
+      - [1996.3689999999999, 941.51199999999994, punto1]
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [3, 2, 1, 0]
@@ -4360,7 +4362,7 @@ levels:
       - [1336.124, 4242.027, 0, ""]
       - [1617.1949999999999, 4242.027, 0, snack_bar_pickup2, {is_holding_point: [4, true], is_parking_spot: [4, true], pickup_dispenser: [1, snack_bar]}]
       - [2146.8969999999999, 4356.8249999999998, 0, ""]
-      - [1963.1410000000001, 883.346, 0, ""]
+      - [1963.1410000000001, 884.97400000000005, 0, ""]
       - [1358.239, 3312.8209999999999, 0, ""]
       - [1481.9459999999999, 3312.8209999999999, 0, ""]
       - [2143.6109999999999, 970.90999999999997, 0, ""]
@@ -4389,6 +4391,7 @@ levels:
       - [2841.0320000000002, 975.06600000000003, 0, ""]
       - [2838.2460000000001, 969.495, 0, ""]
       - [2832.1179999999999, 965.59500000000003, 0, ""]
+      - [1996.3889999999999, 942.38300000000004, 0, ""]
     walls:
       - [4, 5, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [5, 6, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -5669,9 +5672,9 @@ levels:
       filename: CD_n3-1.png
     elevation: 20
     fiducials:
-      - [1987.559, 774.28700000000003, punto2]
-      - [2020.9760000000001, 833.053, punto1]
       - [2018.001, 3516.9940000000001, punto3]
+      - [1986.972, 774.35400000000004, punto2]
+      - [2021.1099999999999, 832.77300000000002, punto1]
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [3, 1, 0, 2]
@@ -6871,6 +6874,8 @@ levels:
       - [3607.3029999999999, 2266.8789999999999, 0, ""]
       - [3621.3130000000001, 2261.9749999999999, 0, ""]
       - [3631.4699999999998, 2259.5239999999999, 0, ""]
+      - [2021.3309999999999, 833.51599999999996, 0, ""]
+      - [1986.972, 775.31600000000003, 0, ""]
     walls:
       - [6, 7, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [7, 8, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -8037,6 +8042,27 @@ levels:
       - [1165, 1166, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1166, 1167, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [635, 638, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+  L5:
+    drawing:
+      filename: CD_n4-1.png
+    elevation: 30
+    fiducials:
+      - [1987.2260000000001, 775.32899999999995, punto2]
+      - [2021.221, 833.39099999999996, punto1]
+      - [2016.8779999999999, 3516.5450000000001, punto3]
+    floors:
+      - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [3, 2, 0, 1]
+    layers:
+      {}
+    vertices:
+      - [195.00700000000001, 40.979999999999997, 0, ""]
+      - [4638.9340000000002, 40.963000000000001, 0, ""]
+      - [195.768, 6579.1999999999998, 0, ""]
+      - [4639.5699999999997, 6578.6599999999999, 0, ""]
+      - [1986.972, 775.31600000000003, 0, ""]
+      - [2021.3309999999999, 833.51599999999996, 0, ""]
+      - [2017.49, 3515.2179999999998, 0, ""]
 lifts:
   lift1:
     depth: 1.5
