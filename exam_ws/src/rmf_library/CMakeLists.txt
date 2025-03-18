@@ -15,7 +15,9 @@ install(DIRECTORY
   sros2/
   DESTINATION share/${PROJECT_NAME}
 )
+ament_package()
 
+file(GLOB_RECURSE traffic_editor_paths "maps/*.building.yaml")
 
 foreach(path ${traffic_editor_paths})
 
