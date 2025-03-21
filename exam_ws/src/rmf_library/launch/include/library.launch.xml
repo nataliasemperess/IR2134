@@ -3,13 +3,13 @@
 <launch>
   <arg name="use_sim_time" default="true"/>
   <arg name="failover_mode" default="false"/>
-  <arg name="gazebo_version" default='8'/>
-  <arg name="sim_update_rate" default='100'/>
+  <arg name="gazebo_version" default="8"/>
+  <arg name="sim_update_rate" default="100"/>
 
   <!-- Common launch -->
   <include file="$(find-pkg-share rmf_library)/launch/include/common.launch.xml">
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
-    <arg name="viz_config_file" value ="$(find-pkg-share rmf_library)/config/library.rviz"/>
+    <arg name="viz_config_file" value="$(find-pkg-share rmf_library)/config/library.rviz"/>
     <arg name="config_file" value="$(find-pkg-share rmf_library)/maps/library.building.yaml"/>
     <arg name="use_reservation_node" value="true"/>
   </include>
@@ -22,7 +22,6 @@
       <arg name="config_file" value="$(find-pkg-share rmf_library)/config/tinyRobot_config.yaml"/>
     </include>
   </group>
- 
- <!-- CleanerRobot fleet adapter -->
 
 </launch>
+
