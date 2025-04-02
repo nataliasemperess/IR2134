@@ -7,8 +7,8 @@ project(rmf_library)
 find_package(ament_cmake REQUIRED)
 
 install(DIRECTORY
-  maps/
-  launch/
+  maps
+  launch
   config
   DESTINATION share/${PROJECT_NAME}
 )
