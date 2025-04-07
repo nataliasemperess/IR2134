@@ -46,3 +46,25 @@ fleet_manager:
   password: "some_password"
   robot_state_update_frequency: 10.0
 
+  robot_state_update_frequency: 10.0
+  action_paths:
+    clean:
+      clean_zona1:
+        map_name: "L2_entrada"
+        path: [ [15.35620, -33.8896, 0.0],
+                [19.1431, -33.0231, 0.0],
+                [24.7112, -33.3922, 0.0], 
+                [21.1489, -34.8684, 0.0] ]
+                
+        finish_waypoint: "clean_zona1"
+
+      clean_zona2:
+        map_name: "L2_entrada"
+        path: [ [21.4859, -72.3363, 0.0],
+                [21.4859, -77.1983, 0.0],
+                [16.4955, -77.2946, 0.0], 
+                [17.1534, -72.3363, 0.0] ]
+                
+        finish_waypoint: "clean_zona2"
+
+
