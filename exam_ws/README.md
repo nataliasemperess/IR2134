@@ -116,7 +116,7 @@ Guardamos los cambios en Git
 
 #### 8) Add the instructions for running several patrol and clean tasks in the command line.
 
-PATROL TASK 1 : entrada_ascensores -> salon_L3
+PATROL TASK 2 : entrada_ascensores -> salon_L3
 
 https://github.com/user-attachments/assets/49701f72-eb95-48b0-8db6-e80f5587ea66
 
