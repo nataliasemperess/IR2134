@@ -120,7 +120,9 @@ PATROL TASK 2 : entrada_ascensores -> salon_L3
 
 https://github.com/user-attachments/assets/49701f72-eb95-48b0-8db6-e80f5587ea66
 
+CLEAN TASK : clean_zona2
 
+https://github.com/user-attachments/assets/960d060b-0275-464e-9a47-25a340e08052
 
 
 
