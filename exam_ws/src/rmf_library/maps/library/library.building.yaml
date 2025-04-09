@@ -7,7 +7,7 @@ crowd_sim:
   enable: 0
   goal_sets: []
   model_types: []
-  obstacle_set: {class: 1, file_name: L2_entrada_navmesh.nav, type: nav_mesh}
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
   states:
     - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
   transitions: []
@@ -15,6 +15,43 @@ crowd_sim:
 graphs:
   {}
 levels:
+  L1:
+    drawing:
+      filename: CD_n0-1.png
+    elevation: -10
+    fiducials:
+      - [1990.788, 3567.2489999999998, punto3]
+      - [1962.9359999999999, 884.80999999999995, punto2]
+      - [1996.424, 941.774, punto1]
+    floors:
+      - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [2, 3, 1, 0]
+    layers:
+      {}
+    measurements:
+      - [7, 8, {distance: [3, 2.5499999999999998]}]
+    vertices:
+      - [195.00399999999999, 41.990000000000002, 0, ""]
+      - [4638.9989999999998, 42.000999999999998, 0, ""]
+      - [196.42400000000001, 6577.8370000000004, 0, ""]
+      - [4639.5699999999997, 6578.6599999999999, 0, ""]
+      - [1963.0070000000001, 884.97400000000005, 0, ""]
+      - [1996.3889999999999, 942.38300000000004, 0, ""]
+      - [1990.7909999999999, 3567.3040000000001, 0, ""]
+      - [1497.002, 2817.009, 0, ""]
+      - [1649.9490000000001, 2816.8029999999999, 0, ""]
+      - [1514.325, 3620.672, 0, ""]
+      - [1514.325, 4036.4749999999999, 0, ""]
+      - [1491.614, 4036.4749999999999, 0, ""]
+      - [1491.614, 3997.1660000000002, 0, ""]
+      - [1466.2809999999999, 3997.1660000000002, 0, ""]
+      - [1414.742, 3997.1660000000002, 0, ""]
+    walls:
+      - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [10, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [11, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L2_entrada:
     doors:
       - [52, 83, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, part1_1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
