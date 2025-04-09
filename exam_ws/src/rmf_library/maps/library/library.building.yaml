@@ -10374,6 +10374,26 @@ levels:
     holes:
       - parameters: {}
         vertices: [81, 82, 83, 77, 78, 79, 80]
+      - parameters: {}
+        vertices: [578, 2, 582, 581, 580, 579]
+      - parameters: {}
+        vertices: [3, 455, 456, 861, 862, 577, 578, 2]
+      - parameters: {}
+        vertices: [3, 455, 454, 860, 452, 451, 450, 449, 447, 446, 445, 444, 443, 23, 24, 0]
+      - parameters: {}
+        vertices: [0, 24, 25, 26, 27, 28, 203, 202, 205, 206, 209, 208, 210, 211, 212, 213, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 1]
+      - parameters: {}
+        vertices: [2, 1, 590, 582]
+      - parameters: {}
+        vertices: [977, 976, 979]
+      - parameters: {}
+        vertices: [741, 742, 744, 743]
+      - parameters: {}
+        vertices: [262, 263, 264, 265]
+      - parameters: {}
+        vertices: [967, 968, 965, 966]
+      - parameters: {}
+        vertices: [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 607, 606, 605, 604, 603, 602, 601, 600, 599, 598, 597, 594, 593, 592, 591, 590, 1]
     layers:
       {}
     measurements:
