@@ -134,7 +134,7 @@ ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor -n 1 --use_sim_time
 PATROL TASK 2 : 
 
 ```bash
- docker exec -it rmf_library bash
+docker exec -it rmf_library bash
 cd ../../exam_ws
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
@@ -144,13 +144,21 @@ ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensores -n 1 --use_sim_ti
 CLEAN TASK 1 : 
 
 ```bash
- docker exec -it rmf_library bash
+docker exec -it rmf_library bash
 cd ../../exam_ws
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
- ros2 run rmf_demos_tasks dispatch_clean -cs  clean_zona1  --use_sim_time
-
+ros2 run rmf_demos_tasks dispatch_clean -cs  clean_zona3  --use_sim_time
 ```
+
+![imagen](https://github.com/user-attachments/assets/37744c75-f644-49ac-ba5b-ea15184a292b)
+
+
+https://github.com/user-attachments/assets/f1903293-113d-4f70-8c6f-135488ea1be6
+
+
+
+
 
 
 #### POR DASHBOARD
