@@ -37,6 +37,9 @@ rmf_fleet:
     tinyRobot2:
         charger: "tinyRobot2_charger"
     
+    tinyRobot3:
+        charger: "tinyRobot3_charger"
+    
 
 fleet_manager:
   ip: "127.0.0.1"
