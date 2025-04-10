@@ -141,9 +141,19 @@ source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensores -n 1 --use_sim_time
 ```
 
+CLEAN TASK 1 : 
+
+```bash
+ docker exec -it rmf_library bash
+cd ../../exam_ws
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ ros2 run rmf_demos_tasks dispatch_clean -cs  clean_zona1  --use_sim_time
+
+```
 
 
-#### POR BASHBOARD
+#### POR DASHBOARD
 
 PATROL TASK 1 : entrada_ascensores -> salon_L3
 
