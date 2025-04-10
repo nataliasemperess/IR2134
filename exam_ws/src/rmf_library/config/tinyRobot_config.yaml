@@ -40,7 +40,10 @@ rmf_fleet:
     tinyRobot3:
         charger: "tinyRobot3_charger"
     
-
+    tinyRobot4:
+        charger: "tinyRobot4_charger"
+   
+        
 fleet_manager:
   ip: "127.0.0.1"
   port: 22011

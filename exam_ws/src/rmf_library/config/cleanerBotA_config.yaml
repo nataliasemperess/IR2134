@@ -38,6 +38,10 @@ rmf_fleet:
       charger: "cleanerbot_charger1"
     cleanerBotA_2:
       charger: "cleanerbot_charger2"
+    cleanerBotA_3:
+      charger: "cleanerbot_charger3"
+    cleanerBotA_4:
+      charger: "cleanerbot_charger4"
 
 fleet_manager:
   ip: "127.0.0.1"
@@ -52,19 +56,29 @@ fleet_manager:
       clean_zona1:
         map_name: "L2_entrada"
         path: [ [15.35620, -33.8896, 0.0],
-                [19.1431, -33.0231, 0.0],
-                [24.7112, -33.3922, 0.0], 
-                [21.1489, -34.8684, 0.0] ]
+                [33.3636, -36.1695, 0.0],
+                [27.8762, -41.2285, 0.0], 
+                [22.1250, -36.1201, 0.0] ]
                 
         finish_waypoint: "clean_zona1"
 
       clean_zona2:
         map_name: "L2_entrada"
-        path: [ [21.4859, -72.3363, 0.0],
-                [21.4859, -77.1983, 0.0],
-                [16.4955, -77.2946, 0.0], 
-                [17.1534, -72.3363, 0.0] ]
+        path: [ [22.4711, -74.5983, 0.0],
+                [22.4711, -79.5914, 0.0],
+                [17.6903, -79.6903, 0.0], 
+                [18.0218, -74.5983, 0.0] ]
                 
         finish_waypoint: "clean_zona2"
+
+      clean_zona3:
+        map_name: "L3"
+        path: [ [43.7731, -36.1869, 0.0],
+                [43.3895, -41.9575, 0.0],
+                [45.3075, -40.0229, 0.0], 
+                [50.0107, -36.1869, 0.0] ]
+                
+        finish_waypoint: "clean_zona3"
+
 
 
