@@ -89,7 +89,7 @@ source install/setup.bash
 #### Terminal 1 : Lanzar Gazebo y RViz
 
 ```bash 
-ros2 launch rmf_library library.launch.xml server_uri:="ws://localhost:8000/_internal"
+ros2 launch rmf_library library.launch.xml 
 ```
 #### Terminal 2 : API Server
 
@@ -121,7 +121,13 @@ PATROL TASK 1 :
  docker exec -it rmf_library bash
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
-ros2 run rmf_demos_tasks dispatch_patrol -p esquina_sup park -n 1 --use_sim_time //cambiar
+ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor -n 1 --use_sim_time
+
+![imagen](https://github.com/user-attachments/assets/4787a5f8-5b6f-4a90-83ab-1a30321fc943)
+
+PATROL TASK 2 : 
+ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensores -n 1 --use_sim_time
+
 
 ```
 PATROL TASK 2 : entrada_ascensores -> salon_L3
