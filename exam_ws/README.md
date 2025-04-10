@@ -116,6 +116,14 @@ Guardamos los cambios en Git
 
 #### 8) Add the instructions for running several patrol and clean tasks in the command line.
 
+PATROL TASK 1 : 
+```bash
+ docker exec -it rmf_library bash
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run rmf_demos_tasks dispatch_patrol -p esquina_sup park -n 1 --use_sim_time //cambiar
+
+```
 PATROL TASK 2 : entrada_ascensores -> salon_L3
 
 https://github.com/user-attachments/assets/49701f72-eb95-48b0-8db6-e80f5587ea66
