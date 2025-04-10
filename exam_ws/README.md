@@ -93,7 +93,7 @@ ros2 launch rmf_library library.launch.xml
 ```
 
 
-#### Terminal 2 : API Server
+#### Terminal 2 : API Server (Solo en el caso de lanzar las tasks por la Dashboard)
 
 Abrimos un segundo terminal donde ejecutaremos el servidor API para la interacción con los servicios:
 
@@ -103,7 +103,7 @@ docker run --network host -it \
   -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
 	ghcr.io/open-rmf/rmf-web/api-server:latest
 ```
-#### Terminal 3 : Dashboard
+#### Terminal 3 : Dashboard (Solo en el caso de lanzar las tasks por la Dashboard)
 
 En otro terminal, ejecutamos el Dashboard para tener una visualización de las tareas y el estado de los robots:
 ```bash
