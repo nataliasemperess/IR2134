@@ -19,7 +19,7 @@ export GZ_SIM_RESOURCE_PATH=`pwd`/library_world:`pwd`/models:/rmf_demos_ws/insta
 gz sim -r -v 3 library.world
 ``
 
-### PASOS EXAMEN
+#### PASOS EXAMEN
 
 #### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. 
 
@@ -124,10 +124,11 @@ source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor -n 1 --use_sim_time
 
-![imagen](https://github.com/user-attachments/assets/9644dd71-eea4-4bbc-882b-3f4fdc5d9931)
 
 PATROL TASK 2 : 
 ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensores -n 1 --use_sim_time
+
+![Captura desde 2025-04-10 17-44-31](https://github.com/user-attachments/assets/a0540f16-be00-4157-85ff-d00b35398e7d)
 
 
 ```
