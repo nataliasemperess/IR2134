@@ -91,6 +91,8 @@ source install/setup.bash
 ```bash 
 ros2 launch rmf_library library.launch.xml 
 ```
+
+
 #### Terminal 2 : API Server
 
 Abrimos un segundo terminal donde ejecutaremos el servidor API para la interacción con los servicios:
@@ -116,7 +118,9 @@ Guardamos los cambios en Git
 
 #### 8) Add the instructions for running several patrol and clean tasks in the command line.
 
+#### POR TERMINAL
 PATROL TASK 1 : 
+
 ```bash
  docker exec -it rmf_library bash
 cd ../../exam_ws
@@ -128,17 +132,24 @@ ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor -n 1 --use_sim_time
 
 
 PATROL TASK 2 : 
+
+```bash
+ docker exec -it rmf_library bash
+cd ../../exam_ws
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensores -n 1 --use_sim_time
+```
 
 
 
+#### POR BASHBOARD
 
-c
-PATROL TASK 2 : entrada_ascensores -> salon_L3
+PATROL TASK 1 : entrada_ascensores -> salon_L3
 
 https://github.com/user-attachments/assets/49701f72-eb95-48b0-8db6-e80f5587ea66
 
-CLEAN TASK : clean_zona2
+CLEAN TASK1 : clean_zona2
 
 https://github.com/user-attachments/assets/960d060b-0275-464e-9a47-25a340e08052
 
