@@ -123,15 +123,17 @@ cd ../../exam_ws
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor -n 1 --use_sim_time
+```
+![task1](https://github.com/user-attachments/assets/a41f0fa2-5ba7-4055-a647-92c02b6cea38)
 
 
 PATROL TASK 2 : 
 ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensores -n 1 --use_sim_time
 
-![Captura desde 2025-04-10 17-44-31](https://github.com/user-attachments/assets/a0540f16-be00-4157-85ff-d00b35398e7d)
 
 
-```
+
+c
 PATROL TASK 2 : entrada_ascensores -> salon_L3
 
 https://github.com/user-attachments/assets/49701f72-eb95-48b0-8db6-e80f5587ea66
