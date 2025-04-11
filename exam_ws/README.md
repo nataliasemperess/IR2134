@@ -27,6 +27,8 @@ Este contenedor nos ofrece un entorno gráfico, conectividad de red y monta el w
 
 #### 3) Create a ROS package named "rmf_library" and the folders : "launch", "config" and "maps".
 
+A continuación, se crea el paquete principal del proyecto utilizando el comando ros2 pkg create, especificando el sistema de construcción ament_cmake, y la licencia Apache-2.0. Luego, se generan manualmente 3 carpetas básicas que formarán parte de la estructura estándar del paquete: 
+
 ```bash
 
 cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src
@@ -35,6 +37,27 @@ ros2 pkg create rmf_library --build-type ament_cmake --license Apache-2.0
 cd rmf_library
 mkdir launch config maps
 ```
+Organizaré mis carpetas de la siguiente manera : 
+
+- maps/ : contendrá los planos de la biblioteca (en PNG) y el archivo del modelo del edificio "library.building.yaml" (se creará en los siguientes pasos).
+
+- launch/ : contendrá los archivos de lanzamiento XML utlizados para iniciar los distitnos componentes del sistema, en mi caso contaré con :
+
+  	- common.launch.xml (inicialización común para Gazebo y RViz)
+  	- library.launch.xml (archivo principal de lanzar la simulación)
+  	- simulation.launch.xml (control de los recursos de simulación)
+  	- visualization.launch.xml (inicializa la visualización en RViz)
+ 
+- config/ : aquí se encontrarán los archivos de configuración para los robots y RViz, tendremos :
+
+  	- cleanerBotA_config.yaml y tinyRobot_config.yaml (configuración de los robots)
+  	- library.rviz (configuración personalizada del entorno RViz.
+
+Además fuera de las carpetas, en "exam_ws/src/rmf_library/" contamos con dos archivos fundamentales para cualquier paquete en ROS2: 
+
+- CMakeList.txt : Se trata de un archivo obligatorio para la compilación con colcon. Este archivo define cómo se construye el paquete, incluyendo dependencias, bibliotecas, ejecutables, etc. Además en mi caso, lo usaremos también para lanzar el mundo Gazebo y la visualización de los grafos (en los pasos siguientes se verá como se lanza una vez configurado).
+
+- package.xml : Contiene el nombre del paquete, autor, licencia, dependencias, descripciones y metadatos ppara que ROS 2 lo reconozca.
 
 #### 4) Download the floor plans of the library and convert the PDFs to PNGs and store in "map" folder:
 
