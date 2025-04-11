@@ -57,7 +57,7 @@ Además fuera de las carpetas, en "exam_ws/src/rmf_library/" contamos con dos ar
 
 - CMakeList.txt : Se trata de un archivo obligatorio para la compilación con colcon. Este archivo define cómo se construye el paquete, incluyendo dependencias, bibliotecas, ejecutables, etc. Además en mi caso, lo usaremos también para lanzar el mundo Gazebo y la visualización de los grafos (en los pasos siguientes se verá como se lanza una vez configurado).
 
-- package.xml : Contiene el nombre del paquete, autor, licencia, dependencias, descripciones y metadatos ppara que ROS 2 lo reconozca.
+- package.xml : Contiene el nombre del paquete, autor, licencia, dependencias, descripciones y metadatos para que ROS 2 lo reconozca.
 
 #### 4) Download the floor plans of the library and convert the PDFs to PNGs and store in "map" folder:
 
@@ -227,4 +227,5 @@ export GZ_SIM_RESOURCE_PATH=`pwd`/library_world:`pwd`/models
 export GZ_SIM_RESOURCE_PATH=`pwd`/library_world:`pwd`/models:/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models
 
 gz sim -r -v 3 library.world
-``
+
+```
