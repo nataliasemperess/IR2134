@@ -228,4 +228,3 @@ export GZ_SIM_RESOURCE_PATH=`pwd`/library_world:`pwd`/models:/rmf_demos_ws/insta
 
 gz sim -r -v 3 library.world
 ``
-----------------------------------------------------------------------------------
