@@ -1,8 +1,12 @@
-# Natalia Sempere - exam_ws
+## Natalia Sempere - exam_ws
 
-### PASOS EXAMEN
+### DOCUMENTACIÓN DEL MODELO OPEN-RMF - BIBLIOTECA UJI
+
+Este documento describe de forma detallada el procedimiento para construir un modelo funcional en Open-RMF, en este caso basado en un modelo de la biblioteca de la Universitat Jaume I. 
 
 #### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. 
+
+En primer lugar, creamos la estructura básica del workspace de ROS 2, donde se alojará el paquete del examen:
 
 ```bash
 mkdir -p /home/usuario/Documentos/GitHub/IR2134/exam_ws/src
@@ -12,11 +16,14 @@ touch README.md
 
 #### 2) Run the Open-RMF Docker container with : 
 
+En este paso iniciamos el entorno Docker para facilitar el desarrollo : 
+
 ```bash
 cd /home/usuario/Documentos/GitHub/IR2134/
 
 rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST --network host --user --volume `pwd`/exam_ws:/exam_ws -- ghcr.io/open-rmf/rmf/rmf_demos:latest bash
 ```
+Este contenedor nos ofrece un entorno gráfico, conectividad de red y monta el workspace exam_ws en /exam_ws dentro del contenedor.
 
 #### 3) Create a ROS package named "rmf_library" and the folders : "launch", "config" and "maps".
 
@@ -31,6 +38,8 @@ mkdir launch config maps
 
 #### 4) Download the floor plans of the library and convert the PDFs to PNGs and store in "map" folder:
 
+Los planos se descargan desde la web oficial de la UJI y se convertirán para ser usados en traffic-editor.
+
 ```bash
 cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src/rmf_library/maps
 
@@ -44,10 +53,13 @@ pdftoppm CD-n5-1.pdf CD-n5-1 -png -singlefile
 
 #### 5) Create a building model named "library.building.yaml" in the "maps" folder with traffic-editor.
 
+Desde dentro del docker, abriremos el traffic-editor y comenzaremos a construir el modelo:
+
 ```bash
 cd /home/usuario/Documentos/GitHub/IR2134/exam_ws/src/rmf_library/maps
+traffic-editor
 ```
-Dentro del Docker, abrimos el traffic-editor y empezamos a construir el modelo.
+![imagen](https://github.com/user-attachments/assets/92b1493a-998f-43d0-8b7d-8e479c3e49ee)
 
 #### 6) Generate the Gazebo world and navigation graphs.
 
@@ -99,7 +111,7 @@ URL del Dashboard : http://localhost:3000
 PATROL TASK 1 : 
 
 ```bash
- docker exec -it rmf_library bash
+docker exec -it rmf_library bash
 cd ../../exam_ws
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
@@ -175,7 +187,7 @@ CLEAN TASK 1 : clean_zona2
 https://github.com/user-attachments/assets/960d060b-0275-464e-9a47-25a340e08052
 
 ----------------------------------------------------------------------------------
-### EXTRAS (PARA IR PROBANDOLO YO AL PRINCIPIO) GAZEBO
+### EXTRAS PARA PRUEBAS CON GAZEBO INDEPENDIENTES
 
 ```bash
 # Se hace dentro del root
