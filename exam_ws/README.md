@@ -156,6 +156,7 @@ source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_patrol -p salon_L3 -n 1 --use_sim_time
 ```
+![imagen](https://github.com/user-attachments/assets/69fe00e7-8a90-4589-be70-a0feb356a3b8)
 
 PATROL TASK 3 : 
 
