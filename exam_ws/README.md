@@ -154,7 +154,7 @@ docker exec -it rmf_library bash
 cd ../../exam_ws
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
-ros2 run rmf_demos_tasks dispatch_patrol -p (PUNTO) -n 1 --use_sim_time
+ros2 run rmf_demos_tasks dispatch_patrol -p salon_L3 -n 1 --use_sim_time
 ```
 
 PATROL TASK 3 : 
