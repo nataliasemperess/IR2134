@@ -147,6 +147,9 @@ ros2 run rmf_demos_tasks dispatch_patrol -p entrada_ascensor -n 1 --use_sim_time
 ![task1](https://github.com/user-attachments/assets/a41f0fa2-5ba7-4055-a647-92c02b6cea38)
 
 
+https://github.com/user-attachments/assets/a06aa358-01c8-41d4-9312-4615f683fb65
+
+
 PATROL TASK 2 : 
 
 ```bash
@@ -158,15 +161,8 @@ ros2 run rmf_demos_tasks dispatch_patrol -p salon_L3 -n 1 --use_sim_time
 ```
 ![imagen](https://github.com/user-attachments/assets/69fe00e7-8a90-4589-be70-a0feb356a3b8)
 
-PATROL TASK 3 : 
+https://github.com/user-attachments/assets/3dfe7d25-b6d3-47ee-9089-054ae113bca7
 
-```bash
-docker exec -it rmf_library bash
-cd ../../exam_ws
-source /opt/ros/jazzy/setup.bash
-source install/setup.bash
-ros2 run rmf_demos_tasks dispatch_patrol -p (PUNTO)  -n 1 --use_sim_time
-```
 
 CLEAN TASK 1 : 
 
@@ -175,20 +171,14 @@ docker exec -it rmf_library bash
 cd ../../exam_ws
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
-ros2 run rmf_demos_tasks dispatch_clean -cs  clean_zona1 --use_sim_time
-```
-
-CLEAN TASK 2 : 
-
-```bash
-docker exec -it rmf_library bash
-cd ../../exam_ws
-source /opt/ros/jazzy/setup.bash
-source install/setup.bash
 ros2 run rmf_demos_tasks dispatch_clean -cs  clean_zona2 --use_sim_time
 ```
+![imagen](https://github.com/user-attachments/assets/e4f9dd0f-23d7-4003-aeeb-95d2699019c2)
 
-CLEAN TASK 3 : 
+https://github.com/user-attachments/assets/06f76fd7-66c0-4858-893d-d1fbc0d071e9
+
+
+CLEAN TASK 2 : 
 
 ```bash
 docker exec -it rmf_library bash
