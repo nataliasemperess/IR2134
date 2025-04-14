@@ -4,6 +4,8 @@
 
 Este documento describe de forma detallada el procedimiento para construir un modelo funcional en Open-RMF, en este caso basado en un modelo de la biblioteca de la Universitat Jaume I. 
 
+![imagen](https://github.com/user-attachments/assets/b9e2384d-8048-41b2-9bd1-63e3500742e2)
+
 #### 1) Create a ROS workspace named "exam_ws" with a README.md file in it. 
 
 En primer lugar, creamos la estructura básica del workspace de ROS 2, donde se alojará el paquete del examen:
@@ -104,6 +106,8 @@ source install/setup.bash
 ros2 launch rmf_library library.launch.xml 
 ```
 Una vez nos ubiquemos en el Gazebo y en el RViz, hay que tener en cuenta que el edificio lo he diseñado para que empiece por la planta "L2_entrada" (así lo deberás indicar en el RViz para poder visualizarla), el resto de plantas corresponden a los nombres : "L1", "L3", "L4", "L5" Y "L6".
+
+![imagen](https://github.com/user-attachments/assets/9e64da1b-04bd-49c7-b4c2-5352f8899778)
 
 #### Terminal 2 : API Server (Solo en el caso de lanzar las tasks por la Dashboard)
 
